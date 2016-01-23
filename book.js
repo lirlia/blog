@@ -190,10 +190,12 @@ for (num of number_array) {
 		
 }
 
+/*
 result.push(html);
-  
 var bookHTML = document.querySelector("div#book");
+*/
 
 if(result.length > 0 && bookHTML != null) {
-	bookHTML.innerHTML = html;
+/*	bookHTML.innerHTML = html;*/
+	document.write(html);
 }
