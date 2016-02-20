@@ -4,7 +4,7 @@ var html="<h3> 自宅で謎解きが出来る書籍紹介<\/h3>";
 var result = new Array();
 
 
-var count = 29;
+var count = 30;
 var roop = 3;
 var checkArray = new Array();
 var number_array = new Array();
@@ -187,7 +187,13 @@ for (num of number_array) {
 		html +="<h4>進撃の巨人の持ち帰り謎！<\/h4>";
 		html +="<div class='kaerebalink-box' style='text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;'><div class='kaerebalink-image' style='float:left;margin:0 15px 10px 0;'><a href='http://www.amazon.co.jp/exec/obidos/ASIN/B018HY41U0/lirlia-22/ref=nosim/' target='_blank' ><img src='http://ecx.images-amazon.com/images/I/41OvL53o0HL._SL160_.jpg' style='border: none;' /><\/a><\/div><div class='kaerebalink-info' style='line-height:120%;/zoom: 1;overflow: hidden;'><div class='kaerebalink-name' style='margin-bottom:10px;line-height:120%'><a href='http://www.amazon.co.jp/exec/obidos/ASIN/B018HY41U0/lirlia-22/ref=nosim/' target='_blank' >進撃の巨人謎箱 ウォール・シーナを目指せ！<\/a><div class='kaerebalink-powered-date' style='font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%'>posted with <a href='http://kaereba.com' rel='nofollow' target='_blank'>カエレバ<\/a><\/div><\/div><div class='kaerebalink-detail' style='margin-bottom:5px;'><\/div><div class='kaerebalink-link1' style='margin-top:10px;'><div class='shoplinkamazon' style='display:inline;margin-right:5px'><a href='http://www.amazon.co.jp/gp/search?keywords=%90i%8C%82%82%CC%8B%90%90l%93%E4%94%A0&__mk_ja_JP=%83J%83%5E%83J%83i&tag=lirlia-22' target='_blank' >Amazon<\/a><\/div><div class='shoplinkrakuten' style='display:inline;margin-right:5px'><a href='http://hb.afl.rakuten.co.jp/hgc/14a5d420.00f7dd8c.14a5d421.73343748/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E9%2580%25B2%25E6%2592%2583%25E3%2581%25AE%25E5%25B7%25A8%25E4%25BA%25BA%25E8%25AC%258E%25E7%25AE%25B1%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F' target='_blank' >楽天市場<\/a><\/div><\/div><\/div><div class='booklink-footer' style='clear: left'><\/div><\/div>";
 	}
-		
+
+	//パズドラ
+	if (num == 30) {
+		html +="<h4>パズドラ×謎解き！<\/h4>";
+		html +="<div class='kaerebalink-box' style='text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;'><div class='kaerebalink-image' style='float:left;margin:0 15px 10px 0;'><a href='http://www.amazon.co.jp/exec/obidos/ASIN/404733071X/lirlia-22/ref=nosim/' target='_blank' ><img src='http://ecx.images-amazon.com/images/I/51IKWQlVgsL._SL160_.jpg' style='border: none;' /><\/a><\/div><div class='kaerebalink-info' style='line-height:120%;/zoom: 1;overflow: hidden;'><div class='kaerebalink-name' style='margin-bottom:10px;line-height:120%'><a href='http://www.amazon.co.jp/exec/obidos/ASIN/404733071X/lirlia-22/ref=nosim/' target='_blank' >謎解き×ゲーム パズドラ謎BOOK (エンターブレインムック)<\/a><div class='kaerebalink-powered-date' style='font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%'>posted with <a href='http://kaereba.com' rel='nofollow' target='_blank'>カエレバ<\/a><\/div><\/div><div class='kaerebalink-detail' style='margin-bottom:5px;'> KADOKAWA/エンターブレイン 2016-02-26    <\/div><div class='kaerebalink-link1' style='margin-top:10px;'><div class='shoplinkamazon' style='display:inline;margin-right:5px'><a href='http://www.amazon.co.jp/gp/search?keywords=%93%E4%89%F0%82%AB%81~%83Q%81%5B%83%80%20%83p%83Y%83h%83%89%93%E4BOOK&__mk_ja_JP=%83J%83%5E%83J%83i&tag=lirlia-22' target='_blank' >Amazon<\/a><\/div><div class='shoplinkrakuten' style='display:inline;margin-right:5px'><a href='http://hb.afl.rakuten.co.jp/hgc/14a5d420.00f7dd8c.14a5d421.73343748/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E8%25AC%258E%25E8%25A7%25A3%25E3%2581%258D%25C3%2597%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%2520%25E3%2583%2591%25E3%2582%25BA%25E3%2583%2589%25E3%2583%25A9%25E8%25AC%258EBOOK%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F' target='_blank' >楽天市場<\/a><\/div><\/div><\/div><div class='booklink-footer' style='clear: left'><\/div><\/div>";
+	}
+	
 }
 
 /*
