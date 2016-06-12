@@ -4,7 +4,7 @@ var html="<h3> 自宅で謎解きが出来る書籍紹介<\/h3>";
 var result = new Array();
 
 
-var count = 32;
+var count = 31;
 var roop = 4;
 var checkArray = new Array();
 var number_array = new Array();
