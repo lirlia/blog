@@ -2541,6 +2541,16 @@ table.koen td {
     padding-left: 20px;
 }
 
+/*
+2016.09.08 隙間用
+*/
+#sukima {
+     width: 710px;
+     height: 10px;
+     margin-left: -35px !important;
+     background-color: #ECE5CE;
+}
+
 /************スマホ************/
 
 
