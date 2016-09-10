@@ -3,9 +3,8 @@ var html="<h3> 自宅で謎解きが出来る書籍紹介<\/h3>";
     /* 紹介本用 */
 var result = new Array();
 
-
-var count = 32;
-var roop = 4;
+var count = 31;
+var roop = 2;
 var checkArray = new Array();
 var number_array = new Array();
 
@@ -187,7 +186,7 @@ for (num of number_array) {
 		html +="<h4>進撃の巨人の持ち帰り謎！<\/h4>";
 		html +="<div class='kaerebalink-box' style='text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;'><div class='kaerebalink-image' style='float:left;margin:0 15px 10px 0;'><a href='http://www.amazon.co.jp/exec/obidos/ASIN/B018HY41U0/lirlia-22/ref=nosim/' target='_blank' ><img src='http://ecx.images-amazon.com/images/I/41OvL53o0HL._SL160_.jpg' style='border: none;' /><\/a><\/div><div class='kaerebalink-info' style='line-height:120%;/zoom: 1;overflow: hidden;'><div class='kaerebalink-name' style='margin-bottom:10px;line-height:120%'><a href='http://www.amazon.co.jp/exec/obidos/ASIN/B018HY41U0/lirlia-22/ref=nosim/' target='_blank' >進撃の巨人謎箱 ウォール・シーナを目指せ！<\/a><div class='kaerebalink-powered-date' style='font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%'>posted with <a href='http://kaereba.com' rel='nofollow' target='_blank'>カエレバ<\/a><\/div><\/div><div class='kaerebalink-detail' style='margin-bottom:5px;'><\/div><div class='kaerebalink-link1' style='margin-top:10px;'><div class='shoplinkamazon' style='display:inline;margin-right:5px'><a href='http://www.amazon.co.jp/gp/search?keywords=%90i%8C%82%82%CC%8B%90%90l%93%E4%94%A0&__mk_ja_JP=%83J%83%5E%83J%83i&tag=lirlia-22' target='_blank' >Amazon<\/a><\/div><div class='shoplinkrakuten' style='display:inline;margin-right:5px'><a href='http://hb.afl.rakuten.co.jp/hgc/14a5d420.00f7dd8c.14a5d421.73343748/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E9%2580%25B2%25E6%2592%2583%25E3%2581%25AE%25E5%25B7%25A8%25E4%25BA%25BA%25E8%25AC%258E%25E7%25AE%25B1%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F' target='_blank' >楽天市場<\/a><\/div><\/div><\/div><div class='booklink-footer' style='clear: left'><\/div><\/div>";
 	}
-
+	
 	//パズドラ
 	if (num == 30) {
 		html +="<h4>パズドラ×謎解き！<\/h4>";
@@ -199,15 +198,12 @@ for (num of number_array) {
 		html +="<h4>SCRAP公式　謎解き対策<\/h4>";
 		html +="<div class='kaerebalink-box' style='text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;'><div class='kaerebalink-image' style='float:left;margin:0 15px 10px 0;'><a href='http://www.amazon.co.jp/exec/obidos/ASIN/4990900413/lirlia-22/ref=nosim/' target='_blank' ><img src='http://ecx.images-amazon.com/images/I/319l8DmsjFL._SL160_.jpg' style='border: none;' /><\/a><\/div><div class='kaerebalink-info' style='line-height:120%;/zoom: 1;overflow: hidden;'><div class='kaerebalink-name' style='margin-bottom:10px;line-height:120%'><a href='http://www.amazon.co.jp/exec/obidos/ASIN/4990900413/lirlia-22/ref=nosim/' target='_blank' >リアル脱出ゲーム presents 究極の謎本【初回特典付き】<\/a><div class='kaerebalink-powered-date' style='font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%'>posted with <a href='http://kaereba.com' rel='nofollow' target='_blank'>カエレバ<\/a><\/div><\/div><div class='kaerebalink-detail' style='margin-bottom:5px;'>SCRAP SCRAP出版 2016-06-30    <\/div><div class='kaerebalink-link1' style='margin-top:10px;'><div class='shoplinkamazon' style='display:inline;margin-right:5px'><a href='http://www.amazon.co.jp/gp/search?keywords=%83%8A%83A%83%8B%92E%8Fo%83Q%81%5B%83%80%20presents%20%8B%86%8B%C9%82%CC%93%E4%96%7B%81y%8F%89%89%F1%93%C1%93T%95t%82%AB%81z&__mk_ja_JP=%83J%83%5E%83J%83i&tag=lirlia-22' target='_blank' >Amazon<\/a><\/div><div class='shoplinkrakuten' style='display:inline;margin-right:5px'><a href='http://hb.afl.rakuten.co.jp/hgc/14a5d420.00f7dd8c.14a5d421.73343748/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%25AA%25E3%2582%25A2%25E3%2583%25AB%25E8%2584%25B1%25E5%2587%25BA%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%2520presents%2520%25E7%25A9%25B6%25E6%25A5%25B5%25E3%2581%25AE%25E8%25AC%258E%25E6%259C%25AC%25E3%2580%2590%25E5%2588%259D%25E5%259B%259E%25E7%2589%25B9%25E5%2585%25B8%25E4%25BB%2598%25E3%2581%258D%25E3%2580%2591%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F' target='_blank' >楽天市場<\/a><\/div><\/div><\/div><div class='booklink-footer' style='clear: left'><\/div><\/div>";
 	}
-	
+			
 }
 
-/*
 result.push(html);
 var bookHTML = document.querySelector("div#book");
-*/
 
 if(result.length > 0 && bookHTML != null) {
-/*	bookHTML.innerHTML = html;*/
-	document.write(html);
+	bookHTML.innerHTML = html;
 }

@@ -1,0 +1,66 @@
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<title>なぞまっぷ</title>
+
+
+
+<!--ヘッダ-->
+<div id="all">
+<div id="my_header">
+<div id="my_title">
+<a href="http://lirlia.hatenablog.com/"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150513/20150513192704.png" alt="なぞまっぷ"></a>
+    </div>
+</div>
+
+<hr class="top_hr">
+<!--カテゴリ-->
+<div id="my_category">
+    <div class="my_category_child"><a href="http://lirlia.hatenablog.com/entry/%E3%80%8C%E3%83%AA%E3%82%A2%E3%83%AB%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8D%E3%81%AB%E5%88%9D%E5%8F%82%E5%8A%A0%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AB%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%8A%E3%81%8F"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150510/20150510023813.png" alt="初心者用"></a></div>
+    <div class="my_category_child"><a href="http://lirlia.hatenablog.com/archive/category/%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150510/20150510023833.png" alt="レポート"></a></div>
+    <div class="my_category_child"><a href="http://lirlia.hatenablog.com/archive/category/%E7%B7%B4%E7%BF%92%E5%95%8F%E9%A1%8C"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150510/20150510023848.png" alt="練習問題"></a></div>
+    <div class="my_category_child"><a href="http://lirlia.hatenablog.com/archive/category/%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150510/20150510023902.png" alt="テクニック"></a></div>
+    <div class="my_category_child"><a href="http://lirlia.hatenablog.com/archive/category/%E8%80%83%E5%AF%9F"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150510/20150510023920.png" alt="考察"></a></div>
+</div>
+
+<!--検索-->
+<div class="my_search">
+<form action="http://www.google.co.jp/cse" id="cse-search-box">
+  <div class="my_search_button">
+    <input type="hidden" name="cx" value="partner-pub-3680414957024749:7276537112" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="27"/>
+    <input type="submit" name="sa" value="検索" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.co.jp/coop/cse/brand?form=cse-search-box&amp;lang=ja"></script>
+</div>
+
+<!--記事（人気or新着）-->
+<div id="my_ranking_ads">
+  <div id="ranking">
+     <h1>本日の人気記事ランキング</h1>
+         <div class="hatena-module hatena-module-entries-access-ranking"
+         data-count="8"
+         data-display_entry_category="0"
+         data-display_entry_image="0"
+         data-display_entry_body_length="0"
+         data-display_entry_date="0"
+         data-display_bookmark_count="0"
+         data-source="access">
+             <div class="hatena-module-body"></div>
+         </div>
+  </div>
+ 
+<!--広告-->
+
+<div class="book_recommend">
+     <h1>今話題のリアル脱出ゲーム「究極の謎本」</h1>
+
+<div class="book_feature">
+<a href="http://www.amazon.co.jp/gp/product/4990900413/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=4990900413&linkCode=as2&tag=lirlia-22"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20160626/20160626145444.jpg" height="220px" ></a>
+</div>     
+</div>
+
+</div>
+
+</div>
+
