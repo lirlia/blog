@@ -3,7 +3,7 @@ var html="<h3> 自宅で謎解きが出来る書籍紹介<\/h3>";
     /* 紹介本用 */
 var result = new Array();
 
-var count = 33;
+var count = 35;
 var roop = 2;
 var checkArray = new Array();
 var number_array = new Array();
@@ -62,7 +62,7 @@ for (num of number_array) {
 	
 	}
 	//人狼村DVD
-	if (num == 6) {
+	if (num == 6) 5
 		html +="<h4>人狼村がDVDに！<\/h4>";
 		html +="<div class='kaerebalink-box' style='text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;'><div class='kaerebalink-image' style='float:left;margin:0 15px 10px 0;'><a href='http://www.amazon.co.jp/exec/obidos/ASIN/B00FZ2VQ38/lirlia-22/ref=nosim/' target='_blank' ><img src='http://ecx.images-amazon.com/images/I/51VQOLL%2BO8L._SL160_.jpg' style='border: none;' /><\/a><\/div><div class='kaerebalink-info' style='line-height:120%;/zoom: 1;overflow: hidden;'><div class='kaerebalink-name' style='margin-bottom:10px;line-height:120%'><a href='http://www.amazon.co.jp/exec/obidos/ASIN/B00FZ2VQ38/lirlia-22/ref=nosim/' target='_blank' >リアル脱出ゲームDVD 『人狼村からの脱出』<\/a><div class='kaerebalink-powered-date' style='font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%'>posted with <a href='http://kaereba.com' rel='nofollow' target='_blank'>カエレバ<\/a><\/div><\/div><div class='kaerebalink-detail' style='margin-bottom:5px;'>ゲーム ビーイング 2013-12-13    <\/div><div class='kaerebalink-link1' style='margin-top:10px;'><div class='shoplinkamazon' style='display:inline;margin-right:5px'><a href='http://www.amazon.co.jp/gp/search?keywords=%83%8A%83A%83%8B%92E%8Fo%83Q%81%5B%83%80&__mk_ja_JP=%83J%83%5E%83J%83i&tag=lirlia-22' target='_blank' >Amazon<\/a><\/div><div class='shoplinkrakuten' style='display:inline;margin-right:5px'><a href='http://hb.afl.rakuten.co.jp/hgc/14a5d420.00f7dd8c.14a5d421.73343748/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%25AA%25E3%2582%25A2%25E3%2583%25AB%25E8%2584%25B1%25E5%2587%25BA%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F' target='_blank' >楽天市場<\/a><\/div><\/div><\/div><div class='booklink-footer' style='clear: left'><\/div><\/div>";
 	}
