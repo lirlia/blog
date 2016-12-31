@@ -3,7 +3,7 @@ var html="<h3> 自宅で謎解きが出来る書籍紹介<\/h3>";
     /* 紹介本用 */
 var result = new Array();
 
-var count = 35;
+var count = 34;
 var roop = 2;
 var checkArray = new Array();
 var number_array = new Array();
