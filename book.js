@@ -1,4 +1,4 @@
-var html="<h3> 自宅で謎解きが出来る書籍紹介<\/h3>";
+var html="<h3>家でも謎解きしたい方はこちら！<\/h3>";
 		    
     /* 紹介本用 */
 var result = new Array();
