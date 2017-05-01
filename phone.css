@@ -1577,7 +1577,7 @@ table.koen {
     margin: 0 auto;
     border-collapse: separate;
     border-spacing: 0px 15px;
-    font-size: 12px;
+    font-size: 100%;
 }
 
 table.koen th,
@@ -1590,12 +1590,10 @@ table.koen th {
     background: #33B0DD;
     vertical-align: middle;
     text-align: left;
-    width: 28%;
     overflow: visible;
     position: relative;
     color: #fff;
-    font-weight: normal;
-    font-size: 12px;
+    font-weight: bold;
 }
 
 table.koen th:after {
