@@ -1,0 +1,1718 @@
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: #33B0DD;
+}
+a:hover {
+  color: #6B6058;
+}
+
+#container {
+    overflow:hidden;
+    padding-top: 0px;
+}
+.ads {
+ position:relative;
+ display:block;
+ margin:0 auto !important;
+ margin-bottom:10px !important;
+ padding:0 !important;
+ text-align: center;
+}
+
+html,body{
+     background-color:#FFF6E5;
+}
+
+#globalheader-container,
+.header-blog-icon,
+#blog-description,
+#header,
+.hatena-module-related-entries
+.hatena-module-entries-access-ranking,
+.profile,
+.hatena-module.profile,
+.hatena-module.search-box,
+.footer-action-wrapper,
+.touch-item-list,
+.footer-service-link,
+.pagetop.section {
+	display:none !important;
+}
+#my_header{
+    display: block;
+	background-color:#FFF6E5;
+    width:100%;
+    *position: fixed;
+    top: 0;
+    z-index: 999999;
+}
+
+#my_title {
+    display: -webkit-box;
+    display: -moz-box;
+}
+
+#my_title_center {
+    -webkit-box-flex: 1;　/* Safari,Google Chrome用 */
+    -moz-box-flex: 1;　/* Firefox用 */
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#my_title_center img {
+    height:40px;
+}
+#my_title_center a,#my_title a:hover,#my_title a:visited{
+    color: #6B6058 !important;
+    text-decoration:none;
+}
+
+#my_title_left {
+    width: 20%;
+    min-height: 40px;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+	display:block;
+	text-align: center;
+}
+
+#my_title_right {
+    width: 20%;
+    min-height: 40px;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+ 	display:block;
+	text-align: center;
+}
+
+.random {
+	display: inline-block;
+	margin: 8px auto;
+	font-size: 200% !important;
+	text-decoration:none;
+	color:#333;
+}
+
+.slideButton {
+	display: inline-block;
+	margin: 8px auto;
+	font-size: 200% !important;
+
+}
+
+#slideMenu {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    -webkit-transform:translateZ(0);
+    z-index: 9999999;
+    top: 0;
+    right: -260px;
+    width: 260px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+#slideMenu > .slideMenuInner {
+    position: static;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.first-li {
+    display: block;
+    position: relative;
+    float: none;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    border-top: 1px solid #eee;
+    background-color: #1F1F1F;
+    line-height: 40px;
+    color: #F3F3F3;
+    font-weight: bold;
+    padding-left: 7px;
+}
+
+.second-ul {
+    display: block;
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F3F3F3;
+    font-size: 100%;
+}
+
+.second-li {
+    padding: 5px 0;
+
+}
+
+.third-ul {
+    display: block;
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #eee;
+    background-color: #F3F3F3;
+    font-size: 100%;
+}
+
+.third-li {
+    padding: 5px 0;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+
+#slideMenu > .slideMenuInner > li:hover a {
+    background-color: #fff;/*スライドメニューの背景色（マウスホバー時）*/
+    color: #333;/*スライドメニューの文字色（マウスホバー時）*/
+}
+#slideMenu > .slideMenuInner > li > a:active {
+    opacity: .8;
+}
+#slideMenu > .slideMenuInner > li:hover > ul.second-level {
+    display: none;
+}
+.closeArea {
+    height: 0;
+    background-color: #333;/*クローズエリア（スライドメニューの下の部分）の色*/
+    cursor: pointer;
+}
+#layer {
+    display: none;
+    position: fixed;
+    z-index: 9999998;
+    top: 0;
+    width: 100%;
+    height: 150%;
+    background-color: #222;/*レイヤーの色*/
+    opacity: .4;/*レイヤーの透明度*/
+    cursor: pointer;
+}
+
+
+.top_hr{
+    width:100%;
+	border-top: 4px double ;
+	text-align: center;
+	color:#6B6058 !important;
+	border-color:#6B6058 !important;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	height: 0px;
+    margin: 2px 0;
+}
+.top_hr:after {
+	font-family: "blogicon";
+	content: "\f015";
+	display: inline-block;
+	position: relative;
+	top: -15px;
+
+    border-radius:50px;
+	background-color:#FFF6E5;
+	padding: 0 10px;
+	font-size: 12px;
+}
+
+.ads_top {
+	position: relative;
+	display:block;
+	margin:0 auto !important;
+	*margin-bottom:10px !important;
+	*padding-top: 70px !important;
+	text-align: center;
+}
+
+.entry-list {
+    width:98%;
+    margin:0 1%;
+}
+
+.list-entry-article{
+    width:96%;
+    height:100px;
+    border:none !important;
+    float:left;
+    background-color:#fff;
+    padding:1%;
+    margin:1%;
+
+}
+
+.entry-footer-time {
+    display:none;
+}
+
+.list-entry-article > .section> .list-entry-header {
+    height: 72px !important;
+}
+.list-entry-article > .section> .list-entry-header >.entry-title{
+    font-size:90% !important;
+    *font-weight:normal !important;
+}
+.list-entry-article > .section > .list-entry-header > .entry-title{
+    margin-left: 85px !important;
+}
+
+/*
+* http://phiary.me/css3-box-sizing/
+*/
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.section {
+    width:100%  !important;
+    margin-left:0 !important;
+    margin-right:0 !important;
+
+}
+
+.section>  .entry-title{
+    position:relative;
+    height:95px !important;
+    *top:110px;
+}
+
+
+.section> .entry-content,
+.section> .entry-body
+{
+    width:100%;
+    padding:0 !imporant;
+    position: relative !important;
+}
+
+.list-entry-article > .section > .entry-body{
+    top: -52px;
+}
+
+.thumb{
+    left:1px;
+
+    width:100% !important;
+    position: relative !important;
+    display:block !important;
+    padding:0 !important;
+}
+
+.date-first {
+    display:none;
+}
+.ads_center {
+    position:relative;
+    display:block;
+    text-align:center;
+}
+
+.my_search {
+    position:relative;
+    display:block;
+    margin:0 !important;
+
+}
+
+.my_footer_search {
+    position:relative;
+    display:block;
+    width:100%;
+    margin-left:10px;
+}
+
+.my_search_button {
+  text-align: center;
+}
+
+.my_search input,
+.my_footer_search input {
+	width:70%;
+	height:30px;
+	border: 1px solid #33B0DD;
+	border-radius:5px;
+	display: inline-block;
+	margin: auto;
+}
+
+.my_search input[type="text"]:focus {
+  outline: 0;
+}
+
+.my_search input[type="submit"],
+.my_footer_search input[type="submit"] {
+	display: inline-block;
+	height: 36px;
+	width: 60px;
+	margin: 0px auto 10px auto;
+	color: #fff;
+	background: #33B0DD;
+	cursor: pointer;
+	border-radius:5px;
+  border-bottom: 3px solid #237b9a;
+  text-align: center;
+}
+
+#top_categories{
+	width:100%;
+	height: 65px;
+	position:relative;
+	display:block;
+}
+
+.my_category {
+  z-index:99999;
+	float:left;
+	text-align:center;
+	position:relative;
+	display:inline-block;
+	width: 20%;
+    padding: 10px 0;
+	color:#fff;
+	height: 85px;
+	font-size:180%;
+	background-color: #33B0DD;
+  border-bottom: 3px solid #237b9a;
+}
+
+.my_category i{
+	color:#fff;
+}
+
+.my_category a,
+.my_category a:visited
+{
+    z-index:99999;
+	color:#fff !important;
+}
+.my_category span {
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;
+	font-size:50%;
+}
+
+.my−title {
+	background-color: #33B0DD;
+	font-size: 100%;
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.hatena-module-entries-access-ranking {
+	background-color: #fff;
+	font-size: 100%;
+	margin-right: 5px;
+	margin-left: 8px;
+	margin-top: 8px;
+	border-radius: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.hatena-module-entries-access-ranking .rank-1:before {
+    content: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170429/20170429213225.png);
+}
+
+.hatena-module-entries-access-ranking .rank-2:before {
+    content: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170429/20170429213226.png);
+}
+
+.hatena-module-entries-access-ranking .rank-3:before {
+    content: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170429/20170429213227.png);
+}
+
+.hatena-module-entries-access-ranking .rank-4:before,
+.hatena-module-entries-access-ranking .rank-5:before,
+.hatena-module-entries-access-ranking .rank-6:before,
+.hatena-module-entries-access-ranking .rank-7:before,
+.hatena-module-entries-access-ranking .rank-8:before {
+    margin-left: 4px;
+}
+
+.touch-default-hatena-module {
+	width: 96.75% !important;
+}
+
+.hatena-module-title {
+	margin-top: 10px;
+	font-size: 125%;
+	padding-left: 10px;
+}
+
+
+.hatena-module-entries-access-ranking .urllist-item:before {
+    font-size: 15px;
+}
+#copyright{
+    text-align:center;
+    font-size:80%;
+    margin-top:20px;
+}
+
+/*
+* カテゴリー
+*/
+
+.categories i { display: none;}
+.categories a:before {
+	font-family: 'FontAwesome';
+	content: '\f07b';
+  padding-right: 5px;
+}
+.categories a {
+    word-break: keep-all;
+    color: #fff;
+    background: #33B0DD;
+    border-radius: 5px;
+    border-bottom: 2px solid #237b9a;
+    font-size: 100% !important;
+    font-weight: bold;
+    padding: 5px;
+    line-height: 3;
+}
+
+#page-top {
+    position: fixed;
+    display: block;
+    bottom: 5px;
+    right: 5px;
+    padding: 10px;
+    font-size: 80%;
+    text-align: center;
+    background: #333;
+    z-index: 999999;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+#page-top a {
+    text-decoration: none;
+    /*文字色*/
+    color: #fff !important;
+    text-align: center;
+}
+
+#page-top:hover {
+    opacity: 1;
+}
+
+/*
+* 2017.04.23  サイドバー: タブウィジェット
+*/
+
+.rightCat {
+	margin-bottom: 16px;
+	border: 8px solid #f2f2f2;
+	background-color: #FFF;
+}
+.rightCat ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.rightCat #rightCatTab {
+	border-bottom: 1px solid #f3eae4;
+}
+.rightCat #rightCatTab li {
+	float: left;
+	width: 33%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.rightCat #rightCatTab li.rctCatTab_02 {
+	margin: 0 .5%;
+}
+.rightCat #rightCatTab li.rctCatTab_03 {
+	float: right;
+}
+.rightCat #rightCatTab li.rctCatTab_05 {
+	margin: 0 .5%;
+}
+.rightCat #rightCatTab li.rctCatTab_06 {
+	float: right;
+}
+
+.rightCat #rightCatTab li a {
+	display: block;
+    color: #333;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	background-color: #fbf8f6;
+	background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170423/20170423223803.gif);
+	box-shadow: inset 0 2px 0 rgba(1, 1, 1, 0.1);
+	padding: 1em 0;
+}
+.rightCat #rightCatTab li a.current {
+	color: #fff !important;
+	background-color: #33B0DD;
+	background-image: none;
+}
+.rightCat .rightCatContent {
+	font-size: 13px;
+	border: 1px solid #ccc;
+	white-space: nowrap;
+}
+.rightCat .rightCatContent .rctList {
+	width: 49%;
+}
+.rightCat .rightCatContent .rctList.rctList_01 {
+	float: left;
+}
+.rightCat .rightCatContent .rctList.rctList_02 {
+	float: right;
+}
+.rightCat .rightCatContent .rctList.rctList_03 {
+	clear: both;
+	width: 100%;
+}
+.rightCat .rightCatContent .rctList.rctList_04 {
+	float: left;
+}
+.rightCat .rightCatContent .rctList.rctList_05 {
+	float: right;
+}
+.rightCat .rightCatContent .rctList.rctList_06 {
+	clear: both;
+	width: 100%;
+}
+.rightCat .rightCatContent .rctList li {
+  line-height: 1.6;
+  padding: 10px 0;
+  margin-left: 2px;
+  border-bottom: 1px dotted #ddd;
+}
+
+.rightCat .rightCatContent .rctList li:last-child {
+	border-bottom: none;
+}
+.rightCat .rightCatContent .rctList li a {
+	display: block;
+	text-decoration: none;
+}
+.rightCat .rightCatContent .rctList li a:hover {
+	text-decoration: underline;
+}
+.rightCat .rightCatContent .rctTtl {
+	font-size: 11px;
+	clear: both;
+	margin: 8px 0 4px;
+	padding-left: 5px;
+	*color: #555;
+	border-left: 4px solid #008ca5;
+}
+.rightCat .rightCatContent #rctCard {
+	padding: 0px 5px;
+}
+.rightCat .rightCatContent #rctBasic {
+	display: none;
+	padding: 0;
+}
+.rightCat .rightCatContent .tabLink {
+	display: none;
+	padding: 0;
+}
+.rightCat .rightCatContent .tabLink li {
+	position: relative;
+	margin: 0;
+	padding: 12px 6px 12px 10px;
+}
+.rightCat .rightCatContent .tabLink li.even {
+	background: #f5f7f8;
+}
+.rightCat .rightCatContent .tabLink li a {
+	line-height: 150%;
+	display: inline;
+	float: left;
+	margin: 0 0 0 10px;
+}
+.rightCat .rightCatContent .tabLink li a:before {
+	font-family: 'FontAwesome';
+	display: inline-block;
+	content: '\f105';
+	width: 1em;
+	height: 1em;
+	color: #999;
+	text-align: center;
+}
+
+.myicon-biginner {
+ 		background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105440.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-today{
+		background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105443.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-app{
+		background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105442.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-friend{
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105447.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-create{
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105444.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-bgm{
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105441.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-event{
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105438.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-ticket{
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105439.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-amazon{
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430113756.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-line{
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105437.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-order{
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105445.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.myicon-type{
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170430/20170430105446.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+/*
+* 書籍紹介
+*/
+.book-recommend {
+    display: block;
+    position: relative;
+    border-radius: 45px;
+    background-color: #EF3B50;
+    margin: 35px 15px 10px 10px !important;
+    padding: 15px 5px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 5px solid #a72938;
+}
+.book-recommend a{
+    color: #fff !important;
+}
+/*
+* お問い合わせ
+*/
+
+.google-form {
+    display: block;
+    color: #fff !important;
+    position: relative;
+    background-color: #33B0DD;
+    margin: 10px 15px 10px 10px !important;
+    padding: 15px 5px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 5px solid #237b9a;
+}
+
+#my_article_bottom_ads {
+    position:relative;
+    display:block;
+}
+
+#kakusan-bottom{
+    padding-bottom:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align:center;
+
+}
+
+.twitter_follow_count_l {
+    width:100% !important;
+}
+
+.ninja_onebutton_output > div {
+    text-align:none !important;
+}
+
+#book{
+    margin-top:20px;
+}
+
+/* 目次 */
+.hatena-fotolife{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* 目次 */
+.table-of-contents:before {
+	display: block;
+	font-family: 'FontAwesome';
+	content: '\f002';
+	/* 虫眼鏡 */
+
+	font-weight: bold;
+	font-size: 120%;
+	padding-left: 3px;
+	position: absolute;
+	top: 15px;
+	left: 5px;
+	color: #FF9600;
+}
+.table-of-contents:after {
+	display: block;
+	content: 'この記事の目次 [クリックで表示]';
+	font-weight: bold;
+	font-size: 120%;
+	position: absolute;
+	top: 15px;
+	left: 35px;
+}
+.table-of-contents {
+	padding: 50px 25px 15px 45px;
+	position: relative;
+	background-color: #F6F6F6;
+}
+.table-of-contents li {
+	list-style-type: decimal !important;
+	display: none;
+}
+
+.table-of-contents > li:first-child {
+	border-top: 1px dotted #CCC;
+	padding-top: 10px !important;
+}
+.table-of-contents > li {
+	font-weight: bold;
+}
+.table-of-contents > li:before {
+	content: "" !important;
+}
+.table-of-contents ul {
+	padding-left: 0.1em;
+	margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+ul.table-of-contents {
+    padding: 50px 25px 15px 30px;
+    list-style-type: decimal;
+    font-size: 90%;
+    background: #eee;
+    margin: 0 auto 20px;
+}
+
+.table-of-contents ul > li:before {
+	font-family: 'FontAwesome';
+	content: '\f105';
+	margin-right: 5px;
+	color: #999;
+}
+.table-of-contents ul > li {
+	list-style: none !important;
+	font-weight: normal;
+}
+.table-of-contents ul > li:last-child {
+	padding-bottom: 10px;
+}
+.table-of-contents ul > li a {
+	color: #454545 !important;
+}
+/* 孫なし */
+
+.table-of-contents > li > ul > li > ul {
+	display: none;
+}
+
+/*
+* 2016.10.13 吹き出し
+*/
+
+.entry-content .l-fuki,
+.entry-content .r-fuki {
+	position: relative;
+	width: 80%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 15px;
+	border-radius: 6px;
+	border: 2px solid #999;
+	box-shadow: 1px 1px 5px #aaa;
+	background-color: #fff;
+	z-index: 1;
+}
+.entry-content .l-fuki {
+	margin: 20px 20% 40px 0 !important;
+}
+.entry-content .r-fuki {
+	margin: 20px 0 40px 28%  !important;
+}
+.entry-content .l-fuki::before,
+.entry-content .r-fuki::before {
+	position: absolute;
+	content: "";
+	top: 16px;
+	width: 10px;
+	height: 10px;
+	border-right: 2px solid #999;
+	border-bottom: 2px solid #999;
+	background-color: #fff;
+	z-index: 2;
+}
+.entry-content .l-fuki::before {
+	right: -7px;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+.entry-content .r-fuki::before {
+	left: -7px;
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+.entry-content .l-fuki::after,
+.entry-content .r-fuki::after {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	top: -10px;
+	* border-radius: 40px;
+	border: 3px solid #fff;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	box-shadow: 1px 1px 5px #aaa;
+}
+.entry-content .l-fuki::after {
+	right: -110px;
+}
+.entry-content .r-fuki::after {
+	left: -110px;
+}
+@media screen and (max-width: 620px) {
+	.entry-content .l-fuki,
+	.entry-content .r-fuki {
+		width: 70%
+	}
+	.entry-content .l-fuki {
+		margin-right: 30%;
+	}
+	.entry-content .r-fuki {
+		margin-left: 30%;
+	}
+}
+@media screen and (max-width: 478px) {
+	.entry-content .l-fuki::after,
+	.entry-content .r-fuki::after {
+		width: 67px;
+		height: 60px;
+	*	border-radius: 30px;
+	}
+	.entry-content .l-fuki::after {
+		right: -84px;
+	}
+	.entry-content .r-fuki::after {
+		left: -84px;
+	}
+}
+
+.gin::after {background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20161124/20161124141319.jpg);}
+.kou::after {background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170111/20170111233158.jpg);}
+.haru::after {background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170111/20170111233157.jpg);}
+.musa::after {background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170111/20170111233154.png);}
+.yazu::after {background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170111/20170111233152.jpg);}
+.kuma::after {background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20170111/20170111233151.jpg);}
+
+/*
+2016.01.10 カエレバCSS
+*/
+/*--------------------------------------
+  ヨメレバ・カエレバ（スマホ）
+--------------------------------------*/
+.kaerebalink-box{
+    padding: 8px;
+    margin: 32px 0;
+  }
+
+  .kaerebalink-image{
+    padding: 8px;
+    float: none;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  .kaerebalink-info{
+    padding: 0px;
+  }
+
+  .kaerebalink-name{
+    font-size: 90%;
+  }
+
+  .kaerebalink-powered-date{
+    font-size: 90%;
+  }
+
+  .kaerebalink-detail{
+    font-size: 90%;
+  }
+
+  .kaerebalink-link1 a{
+    color: #fff;
+    display: block;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    transition: all .7s ease;
+    padding: 8px;
+  }
+
+  .kaerebalink-link1 .shoplinkamazon a{
+    background: #232F3E;
+  }
+  .kaerebalink-link1 .shoplinkrakuten a{
+    background: #bf3939;
+  }
+  .kaerebalink-link1 .shoplinkyahoo a{
+    background: #45818E;
+  }
+
+  .booklink-box{
+    padding: 8px;
+    margin: 32px 0;
+  }
+
+  .booklink-image{
+    padding: 8px;
+    float: none;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  .booklink-info{
+    padding: 0px;
+  }
+
+  .booklink-name{
+    font-size: 90%;
+  }
+
+  .booklink-powered-date{
+    font-size: 90%;
+  }
+
+  .booklink-detail{
+    font-size: 90%;
+  }
+
+
+  .booklink-link2 a{
+    width: 100%;
+  }
+
+.entry{
+  padding-bottom:2%;
+  background-color:#fff;
+}
+
+.section > .entry-title {
+	position: relative;
+	display: block;
+	top: 5px !important;
+}
+
+.categories{
+    margin-top:10px;
+    z-index:99;
+}
+
+.entry-header, .entry-content { padding: 0 15px; }
+div.entry-content h2{
+    color:#fff !important;
+    background-color:#E08E79 !important;
+    margin:0 !important;
+
+    padding:10px 0 !important;
+    padding-left:10px !important;
+    border-top:4px double #fff !important;
+    border-bottom:4px double #fff !important;
+    font-size:135% !important;
+    letter-spacing:1.6px !important;
+    box-shadow:none  !important;
+    text-shadow: 1px 1px 0 #774F38 !important;
+    line-height: 1.5 !important
+}
+
+div.entry-content h2:before {
+    font-family: "blogicon";
+    content: "\f015　";
+}
+
+
+h3{
+	font-size: 110%;
+  color: #fff;
+  background: #33B0DD;
+  padding: 10px 0;
+  text-align: center;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+	word-break: keep-all;
+}
+
+h4 {
+  font-size: 100%;
+  font-weight: normal;
+	position: relative;
+	padding: 10px 0 15px 0;
+	border-bottom: 1px solid #333;
+	margin: 30px 0 20px 0 !important;
+  text-align: center;
+	word-break: keep-all;
+}
+
+
+strong {
+    font-size:120%;
+    color: #D53A3A;
+}
+
+.entry-content blockquote > strong{
+    background:#fff !important;
+}
+
+.entry-content p {
+    margin: 0 0 0.5em 0;
+    font-size:100%;
+    letter-spacing: 1.2px;
+    line-height: 1.95;
+}
+
+.entry-content > ul > li {
+  list-style-type: none;
+}
+
+.entry-content > ul > li:before {
+    content: "\f084";
+    color: #FF9600;
+    font-family: FontAwesome;
+    font-weight: bold;
+    margin: 0 -25px 0 0;
+    left: 25px;
+    position: absolute;
+}
+.entry-content li a { word-break: break-all; }
+
+#kakusan-top{
+    margin:10px 0;
+    text-align:center;
+
+}
+
+#kakusan-top hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), #573626 , rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), #573626, rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), #573626, rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), #573626, rgba(0,0,0,0));
+
+}
+
+.sns-share--area{position:relative;margin:auto;padding:0;}
+.sns-share--area a:hover{color:#fff;}
+.sns-share--area a:visited{color:#fff !important;}
+.sns-share--area li{display:inline-block;list-style-type:none;margin: 0 0.8%;}
+.sns-share--link{
+    display: block;
+  color: #fff !important;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.sns-share--bookmark{
+    background-color:#1487bd;
+    transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+}
+.sns-share--twitter{
+    background-color:#55acee;
+    transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+}
+.sns-share--facebook{
+    background-color:#3274bd;
+    transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+}
+.sns-share--feedly{
+    background-color:#75ca1c;
+    transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+}
+.sns-share--rss{
+    background-color:#FF6600;
+    transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+}
+.sns-share--pocket{
+    background-color:#e54889;
+    transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+}
+.sns-share--line{
+    background-color:#1EC221;
+    transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+    text-decoration: none;
+}
+
+span.line {
+font-size: 5px;
+font-weight: bold;
+color: #1EC221;
+background-color: #fff;
+padding: 3px 3px;
+border-radius: 4px;
+display: inline;
+position: relative;
+top: -2px;
+}
+
+.sns-share--bookmark:hover,
+.sns-share--twitter:hover,
+.sns-share--facebook:hover,
+.sns-share--rss:hover,
+.sns-share--feedly:hover,
+.sns-share--line:hover,
+.sns-share--pocket:hover{
+    color:#fff !important;
+    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+}
+
+.twitter_follow_count_l {
+    width:100% !important;
+}
+
+.ninja_onebutton_output > div {
+    text-align:none !important;
+}
+
+.pager-wrapper {
+    background-color:#fff;
+}
+
+
+/* 2015/08/13　追加*/
+.entry-content blockquote{
+    margin:0 0 15px 0;
+    padding:40px 20px;
+    background: #F6F6F6;
+    position: relative;
+
+  }
+
+.entry-content blockquote:before {
+    content: url('http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150813/20150813171519.png');
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.entry-content blockquote:after {
+    content: url('http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150813/20150813171520.png');
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+
+.entry-content blockquote p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.entry-content blockquote > strong{
+    background:#fff !important;
+}
+.ssArticleTitleContainer a,
+.ssArticleTitleContainer a:visited{
+    color:#fff !important;
+}
+
+/*
+2016.01.13 hide css
+*/
+
+.show-button{
+    display: inline-block;
+    border: 2px solid #454545;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.show-button:hover{
+    *background: #454545 !important;
+    *color: #ffffff　!important;
+    *transition: .3s;
+}
+
+/*
+2017.04.25 広告のmarginを指定
+*/
+
+.adsbygoogle {
+	margin-bottom: 15px;
+}
+/*
+2017.04.25 関連記事
+*/
+.entry-content .link1 {
+  position: relative;
+  margin: 36px 0 16px 0;
+  padding: 20px;
+  border: 2px solid #c62824;
+  background-color: #fffafa;
+}
+.entry-content .link1 p:last-child {
+  margin-bottom: 0;
+}
+.entry-content .link1::before {
+  position: absolute;
+  top: -14px;
+  left: 10px;
+  padding: 0 10px 0 26px;
+  content: "関連記事";
+  background-color: #c62824;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+.entry-content .link1::after {
+  position: absolute;
+  top: -18px;
+  left: 4px;
+  width: 28px;
+  height: 28px;
+  background-color: #c62824;
+  border-radius: 14px;
+  line-height: 27px;
+  text-align: center;
+  content: "\f009";
+  font-size: 16px;
+  font-family: "blogicon";
+  color: #fff;
+}
+
+/*
+2017.04.25 公式サイト
+*/
+.entry-content .link2 {
+  position: relative;
+  margin: 36px 0 16px 0;
+  padding: 20px;
+  border: 2px solid #157618;
+  background-color: #fffafa;
+}
+.entry-content .link2 p:last-child {
+  margin-bottom: 0;
+}
+.entry-content .link2::before {
+  position: absolute;
+  top: -14px;
+  left: 10px;
+  padding: 0 10px 0 26px;
+  content: "公式サイト/外部リンク";
+  background-color: #157618;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+.entry-content .link2::after {
+  position: absolute;
+  top: -18px;
+  left: 4px;
+  width: 28px;
+  height: 28px;
+  background-color: #157618;
+  border-radius: 14px;
+  line-height: 27px;
+  text-align: center;
+  content: "\f009";
+  font-size: 16px;
+  font-family: "blogicon";
+  color: #fff;
+}
+
+ul.link1, ul.link2 {
+    padding-left: 40px !important;
+}
+
+/*シェアボタン*/
+.share-3d{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.share-3d-inner a {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 40px;
+    line-height: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.share-3d .small-text{
+    font-size: 10px;
+}
+.share-3d .hatena-bookmark-button{
+    background: #00A4DE;
+    box-shadow: 0 3px #43638b;
+}
+.share-3d .twitter-button{
+    background: #55ACEE;
+    box-shadow: 0 3px #0092ca;
+}
+.share-3d .googleplus-button{
+    background: #C53727;
+    box-shadow: 0 3px #ad3a2d;
+}
+.share-3d .facebook-button{
+    background: #405BA7;
+    box-shadow: 0 3px #2c4373;
+}
+.share-3d .pocket-button{
+    background: #EE4256;
+    box-shadow: 0 3px 0 #c0392b;
+}
+.share-3d .line-button{
+    position:relative;
+    top: 2px;
+    background: #00C300;
+    box-shadow: 0 3px 0 green;
+}
+.share-3d .share-3d a:active{
+    top: 3px;
+    box-shadow: none;
+}
+.share-3d .line-button:active{
+    top: 5px;
+}
+
+/*
+2016.09.04 arasuji css
+*/
+.arasuji
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    padding: 50px 30px;
+    background-image: url('https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20160904/20160904133359.png');
+}
+.arasuji:before, .arasuji:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.arasuji:after
+{
+    right:auto;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+/*
+2016.09.04 table add css
+*/
+
+table.koen {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+    font-size: 12px;
+}
+
+table.koen th,
+table.koen td {
+    padding: 10px;
+    border: none !important;
+}
+
+table.koen th {
+    background: #0070C0;
+    vertical-align: middle;
+    text-align: left;
+    width: 28%;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+table.koen th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #0070C0;
+    border-width: 10px;
+    margin-top: -10px;
+}
+/* firefox */
+@-moz-document url-prefix() {
+    table.koen th::after {
+        float: right;
+        padding: 0;
+        left: 30px;
+        top: 10px;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: relative;
+        pointer-events: none;
+        border: 10px solid transparent;
+        border-left: #0070C0 10px solid;
+        margin-top: -10px;
+    }
+}
+
+table.koen td {
+    background: #f8f8f8;
+    width: 90%;
+    padding-left: 20px;
+}
+
+/*
+2016.01.10 プロフィールSNS
+*/
+
+.follow-btn{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.follow-btn a {
+    vertical-align:central ;
+    display: inline-block;
+    height: 50px;
+    padding-top:10px;
+    line-height: 22px;
+    width: 23%;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.follow-btn .hatena {
+    color: #3D3F44;
+    background: #ffffff;
+}
+.follow-btn .twitter {
+    color: #00ACEE;
+    background: #ffffff;
+}
+.follow-btn .feedly {
+    color: #70CA3B;
+    background: #ffffff;
+}
+
+.follow-btn .mail {
+    color: #6B6058;
+    background: #ffffff;
+}
+
+.follow-btn .hatena:hover {
+    color: #ffffff !important;
+    background: #3D3F44;
+    transition: all .3s;
+    border-radius:3px;
+}
+.follow-btn .twitter:hover {
+    color: #ffffff !important;
+    background: #00ACEE;
+    transition: all .3s;
+    border-radius:3px;
+}
+.follow-btn .feedly:hover {
+    color: #ffffff !important;
+    background: #70CA3B;
+    transition: all .3s;
+    border-radius:3px;
+}
+
+.follow-btn .mail:hover {
+    color: #ffffff !important;
+    background: #6B6058;
+    transition: all .3s;
+    border-radius:3px;
+}
+
+.text-small{
+    text-align: left;
+    font-size: 9px;
+}
+
+/*
+* footerのプロフ関連のCSS
+*/
+  .my-profile {
+    margin: 0 15px;
+    padding: 10px 0;
+    background-color: #fff;
+    font-size: 80%;
+  }
+  .my-support {
+    padding: 15px 0;
+  }
