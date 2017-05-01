@@ -2431,11 +2431,10 @@ top: -2px;
     transition: .3s;
 }
 
-/*
-2016.09.04 arasuji css
-*/
-        .arasuji
-{
+/*------------------------------------------------------
+* あらすじを設定するCSS
+-------------------------------------------------------- */
+.arasuji{
     padding: 90px 30px;
     background-image: url('https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20160904/20160904133359.png');
     position:relative;
@@ -2469,20 +2468,18 @@ top: -2px;
             transform:skew(8deg) rotate(3deg);
 }
 
-/*
-2016.09.04 table add css
-*/
+/*------------------------------------------------------
+* 公演情報を掲載するテーブル設定
+-------------------------------------------------------- */
 
 table.koen {
     width: 100%;
     margin: 0 auto;
     border-collapse: separate;
     border-spacing: 0px 15px;
-    font-size: 12px;
 }
 
-table.koen th,
-table.koen td {
+table.koen th,table.koen td {
     padding: 10px;
     border: none !important;
 }
@@ -2496,7 +2493,6 @@ table.koen th {
     position: relative;
     color: #fff;
     font-weight: normal;
-    font-size: 15px;
 }
 
 table.koen th:after {
