@@ -1587,13 +1587,14 @@ table.koen td {
 }
 
 table.koen th {
+    width: 28%;
     background: #33B0DD;
     vertical-align: middle;
     text-align: left;
     overflow: visible;
     position: relative;
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 table.koen th:after {
