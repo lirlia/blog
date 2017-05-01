@@ -1607,7 +1607,7 @@ table.koen th:after {
     position: absolute;
     pointer-events: none;
     border-color: rgba(136, 183, 213, 0);
-    border-left-color: #0070C0;
+    border-left-color: #33B0DD;
     border-width: 10px;
     margin-top: -10px;
 }
@@ -1624,7 +1624,7 @@ table.koen th:after {
         position: relative;
         pointer-events: none;
         border: 10px solid transparent;
-        border-left: #0070C0 10px solid;
+        border-left: #33B0DD 10px solid;
         margin-top: -10px;
     }
 }
