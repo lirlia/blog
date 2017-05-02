@@ -2018,28 +2018,6 @@ top: -2px;
 }
 
 /*
-2015.10.1 add 隠すボタン
-*/
-
-.show-button{
-    background: #333;
-    display: inline-block;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-.show-button:hover{
-    background: whilte;
-    display: inline-block;
-    color: white !important;
-    transition: .3s;
-}
-.hide-area{
-    display: none;
-}
-
-/*
 2016.01.10 カエレバcss
 */
 
@@ -2415,21 +2393,26 @@ top: -2px;
     width:300px;
 }
 
-/*
-2016.01.13 hide css
-*/
+/*------------------------------------------------------
+* 回答用のCSS
+-------------------------------------------------------- */
 
 .show-button{
+    background: #333;
     display: inline-block;
-    border: 2px solid #454545;
+    border: 2px solid #333;
     border-radius: 5px;
     padding: 10px 15px;
     cursor: pointer;
 }
 .show-button:hover{
-    background: #454545 !important;
-    color: white;
+    background: #333;
+    display: inline-block;
+    color: #000;
     transition: .3s;
+}
+.hide-area{
+    display: none;
 }
 
 /*------------------------------------------------------
