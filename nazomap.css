@@ -2398,7 +2398,6 @@ top: -2px;
 -------------------------------------------------------- */
 
 .show-button{
-    background: #333;
     display: inline-block;
     border: 2px solid #333;
     border-radius: 5px;
@@ -2406,11 +2405,11 @@ top: -2px;
     cursor: pointer;
 }
 .show-button:hover{
-    background: #333;
-    display: inline-block;
+    background: #333 !important;
     color: #000;
     transition: .3s;
 }
+
 .hide-area{
     display: none;
 }
