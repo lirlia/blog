@@ -1366,22 +1366,24 @@ top: -2px;
     color:#fff !important;
 }
 
-/*
-2016.01.13 hide css
-*/
+/*------------------------------------------------------
+* 回答用のCSS
+-------------------------------------------------------- */
 
 .show-button{
     display: inline-block;
-    border: 2px solid #454545;
+    border: 2px solid #333;
     border-radius: 5px;
     padding: 10px 15px;
     cursor: pointer;
 }
 .show-button:hover{
-    *background: #454545 !important;
+    *background: #333 !important;
     *color: #ffffff　!important;
     *transition: .3s;
 }
+
+.js_close { display: none; }
 
 /*
 2017.04.25 広告のmarginを指定
