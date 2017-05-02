@@ -2412,6 +2412,10 @@ top: -2px;
     color: #fff !important;
     transition: .3s;
 }
+
+.js_close { display: none; }
+
+/*用途不明*/
 .hide-area{
     display: none;
 }
