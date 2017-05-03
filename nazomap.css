@@ -3078,11 +3078,11 @@ table.koen td {
 }
 
 /*------------------------------------------------------
-* TOPページ限定の設定
+* TOPページ限定の設定 ここから
 -------------------------------------------------------- */
 
 /* カテゴリの設定 */
-html[itemtype="http://schema.org/Blog"] .categories {
+.page-index .categories {
     display: inline-block;
     position: absolute;
     top: -176px;
@@ -3091,7 +3091,7 @@ html[itemtype="http://schema.org/Blog"] .categories {
     padding: 0;
 }
 
-html[itemtype="http://schema.org/Blog"] .categories a {
+.page-index .categories a {
     color: #fff;
     background: #33B0DD;
     padding: 5px 10px;
@@ -3100,25 +3100,25 @@ html[itemtype="http://schema.org/Blog"] .categories a {
     line-height: 0;
     text-decoration: none;
 }
-html[itemtype="http://schema.org/Blog"] .categories a:nth-child(n+2) { display: none; }
-html[itemtype="http://schema.org/Blog"] .categories a:before{content: '';}
+.page-index .categories a:nth-child(n+2) { display: none; }
+.page-index .categories a:before{content: '';}
 
 /*------------------------------------------------------
 * 新着記事用のリボン
 -------------------------------------------------------- */
 
-.side-corner-tag {
+.page-index .side-corner-tag {
 	position: relative;
 	color: #fff;
 	display: inline-block;
 	overflow: hidden;
 }
 
-.side-corner-tag > p {
+.page-index .side-corner-tag > p {
 	display: inline;
 }
 
-.side-corner-tag > p > span {
+.page-index .side-corner-tag > p > span {
   font-weight: bold;
 	position: absolute;
 	display: inline-block;
@@ -3138,7 +3138,7 @@ html[itemtype="http://schema.org/Blog"] .categories a:before{content: '';}
   z-index: 99;
 }
 
-.side-corner-tag > p:before {
+.page-index .side-corner-tag > p:before {
 	content: "";
 	width: 0;
 	height: 0;
@@ -3150,7 +3150,7 @@ html[itemtype="http://schema.org/Blog"] .categories a:before{content: '';}
 	border-color: transparent transparent #662121 transparent;
 }
 
-.side-corner-tag > p:after {
+.page-index .side-corner-tag > p:after {
 	content: "";
 	width: 0;
 	height: 0;
@@ -3161,3 +3161,7 @@ html[itemtype="http://schema.org/Blog"] .categories a:before{content: '';}
 	border: 17px solid;
 	border-color: #662121 transparent transparent transparent;
 }
+
+/*------------------------------------------------------
+* TOPページ限定の設定 ここまで
+-------------------------------------------------------- */
