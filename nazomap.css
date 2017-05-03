@@ -3112,7 +3112,6 @@ html[itemtype="http://schema.org/Blog"] .categories a:before{content: '';}
 	color: #fff;
 	display: inline-block;
 	overflow: hidden;
-	font-weight: 900;
 }
 
 .side-corner-tag p {
@@ -3120,13 +3119,15 @@ html[itemtype="http://schema.org/Blog"] .categories a:before{content: '';}
 }
 
 .side-corner-tag p span {
+  font-weight: bold;
 	position: absolute;
 	display: inline-block;
-	right: -29px;
+	right: -30px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.2), inset 0px 5px 30px rgba(255,255,255,0.2);
 	text-align: center;
 	text-transform: uppercase;
-	top: 17px;
+	top: 15px;
+  border: 2px dotted #fff;
 	background: #EF3B50;
 	width: 100px;
 	padding: 3px 10px;
