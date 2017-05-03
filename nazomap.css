@@ -3114,11 +3114,11 @@ html[itemtype="http://schema.org/Blog"] .categories a:before{content: '';}
 	overflow: hidden;
 }
 
-.side-corner-tag p {
+.side-corner-tag > p {
 	display: inline;
 }
 
-.side-corner-tag p span {
+.side-corner-tag > p > span {
   font-weight: bold;
 	position: absolute;
 	display: inline-block;
@@ -3138,7 +3138,7 @@ html[itemtype="http://schema.org/Blog"] .categories a:before{content: '';}
   z-index: 99;
 }
 
-.side-corner-tag p:before {
+.side-corner-tag > p:before {
 	content: "";
 	width: 0;
 	height: 0;
@@ -3150,7 +3150,7 @@ html[itemtype="http://schema.org/Blog"] .categories a:before{content: '';}
 	border-color: transparent transparent #662121 transparent;
 }
 
-.side-corner-tag p:after {
+.side-corner-tag > p:after {
 	content: "";
 	width: 0;
 	height: 0;
