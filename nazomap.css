@@ -1,25 +1,6 @@
 @charset "utf-8";
 
-/*
-  Theme: boilerplate
-  Author: Hatena Blog Team
-  Description:
-    はてなブログのデザインCSSカスタマイズの土台に適したデザインテーマです。
-    このテーマをもとにしてCSSを書くと比較的楽にカスタマイズできます。
-    特定の部分（例えば記事本文の書式やコメント欄のスタイルなど）だけをコピーして使ってもかまいません。
-    もちろんそのままの状態でも、シンプルなテーマとして使うことができます。
-    このCSSおよびLESSファイルは自由に複製・再配布できます。
-    このテーマをもとにしたデザインテーマの配布も自由です。
 
-  Licensed under the MIT license.
-*/
-/*  import normalize */
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1498,11 +1479,6 @@ html[itemtype="http://schema.org/Blog"] .date {
     margin:0;
 }
 
-
-
-html[itemtype="http://schema.org/Blog"] div.categories {
-    display:none;
-}
 html[itemtype="http://schema.org/Blog"] div.entry-inner p{
     width: 340px;
     height: 200px;
@@ -1523,11 +1499,11 @@ html[itemtype="http://schema.org/Blog"] div.entry-inner img{
 
 
 html[itemtype="http://schema.org/Blog"] .entry-content > .entry-see-more {
-    top: -219px;
+    top: -190px;
     position: relative;
     display: block;
     width: 100%;
-    height:301px;
+    height: 272px;
     opacity: 0;
     z-index:100;
 }
@@ -3100,3 +3076,29 @@ table.koen td {
   width: 28px;
   height: 28px;
 }
+
+/*------------------------------------------------------
+* TOPページ限定の設定
+-------------------------------------------------------- */
+
+/* カテゴリの設定 */
+html[itemtype="http://schema.org/Blog"] .categories {
+    display: inline-block;
+    position: absolute;
+    top: -176px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+html[itemtype="http://schema.org/Blog"] .categories a {
+    color: #fff;
+    background: #33B0DD;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+html[itemtype="http://schema.org/Blog"] .categories a:nth-child(n+2) { display: none; }
+html[itemtype="http://schema.org/Blog"] .categories a:before{content: '';}
