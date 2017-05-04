@@ -1042,34 +1042,7 @@ html[itemtype="http://schema.org/Blog"] .entry {
   margin-left: 0;
   margin-bottom: 30px;
 }
-/* archive ページ */
-.page-archive .archive-entries .archive-entry {
-  *margin-bottom: 3em;
-}
-.page-archive .archive-entries .entry-title {
-  font-size: 130%;
-  margin: 0 0 .5em;
-}
-.page-archive .archive-entries .categories {
-  margin: 0 0 .5em;
-}
-.page-archive .archive-entries .entry-description {
-  margin: 0 0 1em;
-  line-height: 1.7em;
-  font-size: 95%;
-}
-.page-archive .categories a {
-  color: #fff;
-  font-size: 70%;
-  background: #aaa;
-  padding: 3px 5px;
-  border-radius: 3px;
-  text-decoration: none;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  margin-right: 2px;
-}
+
 /*  import media queries */
 /* Media Queries - Retina Display */
 @media (-webkit-min-device-pixel-ratio: 2) {
@@ -1445,39 +1418,8 @@ html[itemtype="http://schema.org/Blog"] div.entry-inner:after {
     -o-transform: skew(8deg)  rotate(3deg);
 }
 
-html[itemtype="http://schema.org/Blog"] h1.entry-title {
-    margin:0 10px;
-    margin-bottom:0px;
-    font-size:110%;
-    height:80px;
-    letter-spacing:1.8px;
-    /*途中改行無し*/
-    word-break:break-all;
-    font-weight:normal;
-}
 
-html[itemtype="http://schema.org/Blog"] h1.entry-title a {
-    color:#fff;
-}
 
-html[itemtype="http://schema.org/Blog"] h1.entry-title a:hover {
-    *color:#774F38 !important;
-}
-
-html[itemtype="http://schema.org/Blog"] .date a{
-    margin:0;
-    font-weight:bold;
-    padding-left:10px;
-    font-size:80%;
-    color:#fff;
-}
-
-html[itemtype="http://schema.org/Blog"] .date {
-    top:-195px;
-    padding-top:10px;
-    padding-bottom:10px;
-    margin:0;
-}
 
 html[itemtype="http://schema.org/Blog"] div.entry-inner p{
     width: 340px;
@@ -1506,20 +1448,6 @@ html[itemtype="http://schema.org/Blog"] .entry-content > .entry-see-more {
     height: 272px;
     opacity: 0;
     z-index:100;
-}
-
-/* 2015/09/13 add category */
-
-.archive-entry-header > h1.entry-title {
-	padding:0 10px;
-}
-.archive-entry-header  > h1.entry-title > a {
-	color: #454545 !important;
-}
-
-
-.archive-entry-header > .date a{
-	color :#E08E79 !important;
 }
 
 /*サイドバー*/
@@ -1976,11 +1904,6 @@ top: -2px;
     margin-left:10px;
     margin-bottom:10px;
     background: #C5E0DC;
-}
-
-
-.archive-entries .entry-description {
-    margin:0 !important;
 }
 
 #copyright{
@@ -3081,6 +3004,18 @@ table.koen td {
 * TOPページ限定の設定 ここから
 -------------------------------------------------------- */
 
+/* 記事タイトルの設定 */
+.page-index .entry-title {
+    margin: 0 10px 0 10px;
+    font-size: 110%;
+    height: 80px;
+    letter-spacing: 1.8px;
+    word-break: break-all;
+    font-weight: normal;
+}
+
+.page-index .entry-title a { color:#fff;}
+
 /* カテゴリの設定 */
 .page-index .categories {
     display: inline-block;
@@ -3103,9 +3038,22 @@ table.koen td {
 .page-index .categories a:nth-child(n+2) { display: none; }
 .page-index .categories a:before{content: '';}
 
-/*------------------------------------------------------
-* 新着記事用のリボン
--------------------------------------------------------- */
+.page-index .date a{
+    margin: 0;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 80%;
+    color: #fff;
+}
+
+.page-index .date {
+    top: -195px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+/* 新着記事用のリボン */
 
 .page-index .side-corner-tag {
 	position: relative;
@@ -3164,4 +3112,20 @@ table.koen td {
 
 /*------------------------------------------------------
 * TOPページ限定の設定 ここまで
+-------------------------------------------------------- */
+
+/*------------------------------------------------------
+* archiveページ限定の設定 ここから
+-------------------------------------------------------- */
+
+.page-archive .date { padding: 10px 0 10px 10px; }
+.page-archive .entry-title { font-size: 130%;}
+.page-archive .categories { margin: 0 0 0 10px; }
+.page-archive .entry-description {
+  line-height: 1.7em;
+  padding: 0 10px 0 0;
+}
+
+/*------------------------------------------------------
+* archiveページ限定の設定 ここまで
 -------------------------------------------------------- */
