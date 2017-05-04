@@ -3118,7 +3118,11 @@ table.koen td {
 * archiveページ限定の設定 ここから
 -------------------------------------------------------- */
 
-.page-archive .date { padding: 10px 0 10px 10px; }
+.page-archive .archive-entry-header { padding: 0 0 10px 10px; }
+.page-archive .date {
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
 .page-archive .entry-title { font-size: 130%;}
 .page-archive .categories { margin: 0 0 0 10px; }
 .page-archive .entry-description {
