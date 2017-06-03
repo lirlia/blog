@@ -2323,7 +2323,7 @@ top: -2px;
 * あらすじを設定するCSS
 -------------------------------------------------------- */
 .arasuji{
-    padding: 90px 30px;
+    padding: 50px 30px;
     background-image: url('https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20160904/20160904133359.png');
     position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
