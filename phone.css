@@ -1708,6 +1708,14 @@ table.koen td {
 }
 
 /*
+* コメントの設定
+*/
+
+.comment-box ul.list  {
+  margin: 0 10px;
+}
+
+/*
 * footerのプロフ関連のCSS
 */
   .my-profile {
