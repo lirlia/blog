@@ -2,42 +2,10 @@
  ４択クイズのJQuery
  問題数やn択クイズを自由に設定できます。
 
- date: 2017.06.04 v0.0.1
+ date: 2017.06.10 v0.0.2
  author: gin
  mail: nazomap@gmail.com
  license: GPL
-*/
-
-/* 使い方
-
-  <div class="quiz">
-    <h4>１問目：xxxx</h4>
-    <div class="quiz-choice">
-      <div class="quiz-choice-list quiz-border quiz-uncheck">xx</div>
-      <div class="quiz-choice-list quiz-border quiz-uncheck">xx</div>
-      <div class="quiz-choice-list quiz-border quiz-uncheck quiz-true">正解はquiz-trueを付与</div>
-      <div class="quiz-choice-list quiz-border quiz-uncheck">xx</div>
-    </div>
-      <div class="quiz-ans quiz-border">
-      <div class="quiz-result"></div>
-      <p>答えを記載</p>
-    </div>
-    <h4>２問目：xxxx</h4>
-    <div class="quiz-choice">
-      <div class="quiz-choice-list quiz-border quiz-uncheck quiz-true">xx</div>
-      <div class="quiz-choice-list quiz-border quiz-uncheck">xx</div>
-      <div class="quiz-choice-list quiz-border quiz-uncheck">xx</div>
-      <div class="quiz-choice-list quiz-border quiz-uncheck">xx</div>
-    </div>
-    <div class="quiz-ans quiz-border">
-      <div class="quiz-result"> </div>
-      <p>xx</p>
-    </div>
-    ・・・
-    <div class="quiz-all-result quiz-border">
-    <div class="quiz-all-result-messages"> </div>
-
-  </div>
 */
 
 $(function(){
@@ -98,14 +66,14 @@ $(function(){
 
       if (ans_count == ques_count) {
 
-          var quiz_all_result_messages = "あなたは謎知識検定 " + rank + "級 です! (" +collect_count + "/" + ans_count + "問正解)";
+          var quiz_all_result_messages = "あなたは " + quiz_name + rank + "級 です! (" +collect_count + "/" + ans_count + "問正解)";
           $(".quiz-all-result-messages").text(quiz_all_result_messages);
 
           $('.quiz-all-result').toggle();
           $("html,body").animate({scrollTop:$('.quiz-all-result').offset().top})
 
           var facebook_href = 'http://www.facebook.com/sharer.php?u=' + location.href;
-          var twitter_href_text = quiz_all_result_messages + ' ' + $('.entry-title').text() + ' ' + location.href + ' @tenhouginsamaさんから #謎知識検定 #' + rank + '級';
+          var twitter_href_text = quiz_all_result_messages + ' ' + $('.entry-title').text() + ' ' + location.href + ' @tenhouginsamaさんから #' + quiz_name +' #' + rank + '級';
           var twitter_href = 'http://twitter.com/intent/tweet?text=' + encodeURIComponent(twitter_href_text);
           var line_href = 'http://line.me/R/msg/text/?'+ $('.entry-title').text() + ' ' + location.href
           $('.quiz-facebook').attr("href", facebook_href);
