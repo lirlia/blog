@@ -1328,6 +1328,9 @@ top: -2px;
     background-color:#fff;
 }
 
+.pager-permalink {
+  display: none;
+}
 
 /* 2015/08/13　追加*/
 .entry-content blockquote{
