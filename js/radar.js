@@ -5,13 +5,13 @@
     //
     // ginRadarScore変数を定義すること
     // 例：var ginRadarScore = [3,8,8,8,8,10,8,8,8,8];
-    var sum = ginRadarScore.reduce(function(p, c) { return p + c; }); 
+    var sum = ginRadarScore.reduce(function(p, c) { return p + c; });
     var data = {
         labels: ["おもしろさ", "オススメ度", "満足度", "爽快感/驚き度", "ストーリー","バランスのよさ","オリジナル度","コスパ","演出/映像/小物/内装","司会/役者/スタッフ"],
         datasets: [
             {
               // 上のラベル内容
-              label: "合計：" + sum + "点, 平均：" + sum/10 + "点", 
+              label: "合計：" + sum + "点, 平均：" + sum/10 + "点",
               // チャートの背景色
               backgroundColor:"rgba(99,132,255,0.2)",
               // チャートの線の色
@@ -38,7 +38,7 @@
             max: 10
           },
           pointLabels: {
-            fontSize: 15 //フォントサイズ
+            fontSize: 25 //フォントサイズ
           },
       },
       legend: {
