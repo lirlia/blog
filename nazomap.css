@@ -1669,25 +1669,27 @@ div.entry-content h2{
 
 
 h3{
-	font-size: 160%;
   font-weight: normal;
   color: #fff;
   background: #33B0DD;
-  padding: 15px 0;
-  text-align: center;
+  padding: 15px 0 15px 25px;
   margin: 25px -35px 40px -35px !important;
-  word-break: keep-all;
-  font-size: 140%;
+}
+
+h3:before {
+    color: #fff;
+    font-family: FontAwesome;
+    font-weight: bold;
+    padding: 0 10px 0 0;
+    content: "\f0ab";
 }
 
 h4{
   font-weight: normal;
-	position: relative;
-	padding: 10px 0 15px 0;
-	border-bottom: 1px solid #333;
-	margin: 30px 0 20px 0 !important;
-  text-align: center;
-  word-break: keep-all;
+  position: relative;
+  padding: 10px 0 15px 0;
+  border-bottom: 2px dashed #333;
+  margin: 30px 0 30px 0 !important;
 }
 
 
