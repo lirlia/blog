@@ -287,13 +287,6 @@ html,body{
 
 }
 
-.section>  .entry-title{
-    position:relative;
-    height:95px !important;
-    *top:110px;
-}
-
-
 .section> .entry-content,
 .section> .entry-body
 {
@@ -1138,9 +1131,11 @@ ul.table-of-contents {
 }
 
 .section > .entry-title {
-	position: relative;
-	display: block;
-	top: 5px !important;
+  position: relative;
+  display: block;
+  top: 5px !important;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
 }
 
 .categories{
@@ -1172,25 +1167,27 @@ div.entry-content h2:before {
 
 
 h3{
-	font-size: 110%;
   color: #fff;
   background: #33B0DD;
-  padding: 10px 0;
-  text-align: center;
+  padding: 10px 0 10px 10px;
   margin-left: -15px !important;
   margin-right: -15px !important;
-	word-break: keep-all;
+}
+
+h3:before {
+    color: #fff;
+    font-family: FontAwesome;
+    font-weight: bold;
+    padding: 0 10px 0 0;
+    content: "\f0ab";
 }
 
 h4 {
-  font-size: 100%;
   font-weight: normal;
-	position: relative;
-	padding: 10px 0 15px 0;
-	border-bottom: 1px solid #333;
-	margin: 30px 0 20px 0 !important;
-  text-align: center;
-	word-break: keep-all;
+  position: relative;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px dashed #333;
+  margin: 30px 0 20px 0 !important;
 }
 
 
