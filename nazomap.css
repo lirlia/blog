@@ -1715,14 +1715,19 @@ strong {
 
 .entry-content > ul,
 .entry-content > ol,
-.entry-content > li {
+.entry-content > li,
+.entry-content > div > ul,
+.entry-content > div > ol,
+.entry-content > div > li, {
     color: #454545 !important;
     font-size: 100% !important;
 }
-.entry-content > ul {
+.entry-content > ul,
+.entry-content > div > ul {
     list-style-type: none;
 }
-.entry-content > ul > li:before {
+.entry-content > ul > li:before,
+.entry-content > div > ul > li:before {
     content: "\f084";
     color: #FF9600;
     font-family: FontAwesome;
