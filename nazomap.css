@@ -3008,6 +3008,38 @@ table.koen td {
   height: 28px;
 }
 
+/*
+2018.03.24 難易度星
+*/
+
+.evaluation{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.evaluation label{
+  position: relative;
+  padding: 10px 5% 0;
+  color: gray;
+  cursor: pointer;
+  font-size: 200%;
+}
+.evaluation label .text{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  text-align: center;
+  font-size: 40%;
+  color: gray;
+}
+
+.evaluation .yellow,
+.evaluation .yellow ~ label {
+  color: #ffcc00;
+}
+
 /*------------------------------------------------------
 * TOPページ限定の設定 ここから
 -------------------------------------------------------- */
