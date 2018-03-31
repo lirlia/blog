@@ -268,6 +268,14 @@ html,body{
 .list-entry-article > .section > .list-entry-header > .entry-title{
     margin-left: 85px !important;
 }
+/* 
+ * 2018.03.26 HatenaBlogのアップデートに伴う修正
+ * 記事一覧での記事概要表示の無効化 
+ */
+
+.list-entry-article > .section > .entry-body > .entry-content {
+    display: none !important;
+}
 
 /*
 * http://phiary.me/css3-box-sizing/
