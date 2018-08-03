@@ -268,9 +268,9 @@ html,body{
 .list-entry-article > .section > .list-entry-header > .entry-title{
     margin-left: 85px !important;
 }
-/* 
+/*
  * 2018.03.26 HatenaBlogのアップデートに伴う修正
- * 記事一覧での記事概要表示の無効化 
+ * 記事一覧での記事概要表示の無効化
  */
 
 .list-entry-article > .section > .entry-body > .entry-content {
@@ -1347,14 +1347,14 @@ top: -2px;
   }
 
 .entry-content blockquote:before {
-    content: url('http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150813/20150813171519.png');
+    content: url('https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150813/20150813171519.png');
     position: absolute;
     top: 15px;
     left: 20px;
 }
 
 .entry-content blockquote:after {
-    content: url('http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150813/20150813171520.png');
+    content: url('https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150813/20150813171520.png');
     position: absolute;
     bottom: 15px;
     right: 20px;

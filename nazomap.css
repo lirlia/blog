@@ -546,7 +546,7 @@ a.keyword {
   position: relative;
   *margin-bottom: 100px;
 }
-html[itemtype="http://schema.org/Blog"] .entry {
+html[itemtype="https://schema.org/Blog"] .entry {
   margin-bottom: 100px;
 }
 .entry-header {
@@ -706,14 +706,14 @@ html[itemtype="http://schema.org/Blog"] .entry {
   }
 
 .entry-content blockquote:before {
-    content: url('http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150813/20150813171519.png');
+    content: url('https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150813/20150813171519.png');
     position: absolute;
     top: 15px;
     left: 20px;
 }
 
 .entry-content blockquote:after {
-    content: url('http://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150813/20150813171520.png');
+    content: url('https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20150813/20150813171520.png');
     position: absolute;
     bottom: 15px;
     right: 20px;
@@ -938,7 +938,7 @@ html[itemtype="http://schema.org/Blog"] .entry {
 .hatena-module-search-box .search-module-button {
   width: 20px;
   height: 20px;
-  background: transparent url(http://blog.hatena.ne.jp/images/theme/search.png) no-repeat right center;
+  background: transparent url(https://blog.hatena.ne.jp/images/theme/search.png) no-repeat right center;
   border: none;
   outline: none;
   text-indent: -9999px;
@@ -1047,7 +1047,7 @@ html[itemtype="http://schema.org/Blog"] .entry {
 /* Media Queries - Retina Display */
 @media (-webkit-min-device-pixel-ratio: 2) {
   .hatena-module-search-box .search-module-button {
-    background: transparent url(http://blog.hatena.ne.jp/images/theme/search@2x.png) no-repeat right center;
+    background: transparent url(https://blog.hatena.ne.jp/images/theme/search@2x.png) no-repeat right center;
     background-size: 20px 20px;
   }
 }
@@ -1081,7 +1081,7 @@ html,body{
         width: 730px;
     }
 
-html[itemtype="http://schema.org/Blog"] #main-inner {
+html[itemtype="https://schema.org/Blog"] #main-inner {
         width: 730px;
         background-color:#FFF6E5;
     }
@@ -1332,7 +1332,7 @@ html[itemtype="http://schema.org/Blog"] #main-inner {
 	}
 
 
-html[itemtype="http://schema.org/Blog"] #my_newpage{
+html[itemtype="https://schema.org/Blog"] #my_newpage{
     display:block;
     position:relative;
     margin-top:20px;
@@ -1349,7 +1349,7 @@ html[itemtype="http://schema.org/Blog"] #my_newpage{
 }
 
 
-html[itemtype="http://schema.org/Blog"] #my_newpage h1{
+html[itemtype="https://schema.org/Blog"] #my_newpage h1{
     color:#fff;
     font-size:150%;
     font-weight:normal;
@@ -1357,11 +1357,11 @@ html[itemtype="http://schema.org/Blog"] #my_newpage h1{
     padding-left:10px;
 }
 
-html[itemtype="http://schema.org/Blog"] .entry-footer{
+html[itemtype="https://schema.org/Blog"] .entry-footer{
     display:none;
 }
 
-html[itemtype="http://schema.org/Blog"] .entry-header{
+html[itemtype="https://schema.org/Blog"] .entry-header{
     top:177px;
     padding:0;
     border:none;
@@ -1372,19 +1372,19 @@ html[itemtype="http://schema.org/Blog"] .entry-header{
 
 }
 
-html[itemtype="http://schema.org/Blog"] div.entry-content{
+html[itemtype="https://schema.org/Blog"] div.entry-content{
     top:-130px;
     position: relative;
     border:none;
 }
 
-html[itemtype="http://schema.org/Blog"] div.entry-content a:after{
+html[itemtype="https://schema.org/Blog"] div.entry-content a:after{
     content: '' !important;
 }
 
 
 
-html[itemtype="http://schema.org/Blog"] div.entry-inner{
+html[itemtype="https://schema.org/Blog"] div.entry-inner{
     position:relative;
     top:-100px;
     width:340px;
@@ -1396,8 +1396,8 @@ html[itemtype="http://schema.org/Blog"] div.entry-inner{
     border-radius:5px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
-html[itemtype="http://schema.org/Blog"] div.entry-inner:before,
-html[itemtype="http://schema.org/Blog"] div.entry-inner:after {
+html[itemtype="https://schema.org/Blog"] div.entry-inner:before,
+html[itemtype="https://schema.org/Blog"] div.entry-inner:after {
     border-radius: 100px 100px 100px 100px / 10px 10px 10px 10px;
     bottom: 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
@@ -1408,7 +1408,7 @@ html[itemtype="http://schema.org/Blog"] div.entry-inner:after {
     top: 50%;
     z-index: -1;
 }
-html[itemtype="http://schema.org/Blog"] div.entry-inner:after {
+html[itemtype="https://schema.org/Blog"] div.entry-inner:after {
     left: auto;
     right: 10px;
     transform: skew(8deg) rotate(3deg);
@@ -1421,12 +1421,12 @@ html[itemtype="http://schema.org/Blog"] div.entry-inner:after {
 
 
 
-html[itemtype="http://schema.org/Blog"] div.entry-inner p{
+html[itemtype="https://schema.org/Blog"] div.entry-inner p{
     width: 340px;
     height: 200px;
     margin-bottom:5px;
 }
-html[itemtype="http://schema.org/Blog"] div.entry-inner img{
+html[itemtype="https://schema.org/Blog"] div.entry-inner img{
     position: relative;
     top: 136px;
     -webkit-transform: translateY(-50%);
@@ -1440,7 +1440,7 @@ html[itemtype="http://schema.org/Blog"] div.entry-inner img{
 }
 
 
-html[itemtype="http://schema.org/Blog"] .entry-content > .entry-see-more {
+html[itemtype="https://schema.org/Blog"] .entry-content > .entry-see-more {
     top: -190px;
     position: relative;
     display: block;

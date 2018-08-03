@@ -72,10 +72,10 @@ $(function(){
           $('.quiz-all-result').toggle();
           $("html,body").animate({scrollTop:$('.quiz-all-result').offset().top})
 
-          var facebook_href = 'http://www.facebook.com/sharer.php?u=' + location.href;
+          var facebook_href = 'https://www.facebook.com/sharer.php?u=' + location.href;
           var twitter_href_text = quiz_all_result_messages + ' ' + $('.entry-title').text() + ' ' + location.href + ' @tenhouginsamaさんから #' + quiz_name +' #' + rank + '級';
-          var twitter_href = 'http://twitter.com/intent/tweet?text=' + encodeURIComponent(twitter_href_text);
-          var line_href = 'http://line.me/R/msg/text/?'+ $('.entry-title').text() + ' ' + location.href
+          var twitter_href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(twitter_href_text);
+          var line_href = 'https://line.me/R/msg/text/?'+ $('.entry-title').text() + ' ' + location.href
           $('.quiz-facebook').attr("href", facebook_href);
           $('.quiz-twitter').attr("href", twitter_href);
           $('.quiz-line').attr("href", line_href);
