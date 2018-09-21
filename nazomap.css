@@ -953,6 +953,24 @@ html[itemtype="http://schema.org/Blog"] .entry {
   filter: alpha(opacity=85);
 }
 
+/*
+* 書籍紹介
+*/
+.book-recommend {
+    display: block;
+    position: relative;
+    border-radius: 45px;
+    background-color: #EF3B50;
+    margin: 35px 15px 10px 10px !important;
+    padding: 15px 5px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 5px solid #a72938;
+}
+.book-recommend a{
+    color: #fff !important;
+}
+
 /* Pager */
 .pager {
 	margin: 20px 0 20px 0;
