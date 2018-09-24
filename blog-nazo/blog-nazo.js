@@ -18,7 +18,8 @@ $(function(){
 
 function ansCheck(obj){
     // 問題の正誤チェック
-    q_index = $('input[type=submit]').index($(obj));
+    q_index = $('.nazo input[type=submit]').index($(obj));
+    console.log(q_index)
     if (ans[q_index] == encodeURIComponent($(obj).prev("input").val())){
 
       // 正解の場合は次の要素をオープン
