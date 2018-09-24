@@ -24,6 +24,7 @@ function ansCheck(obj){
 
       // 正解の場合は次の要素をオープン
       $(obj).parent().parent().next().show();
+      window.alert("おめでとうございます、正解です！");
     } else {
       window.alert("入力内容に誤りがあります");
     };
