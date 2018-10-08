@@ -29,5 +29,13 @@ ans = {
 }
 ```
 
+### include
+
+when use sha256 js.
+include these library.
+
+<script src="/path/sha256.js"></script>
+<script src="/path/blog-nazo-sha256.js"></script>
+
 # License
 GPL
