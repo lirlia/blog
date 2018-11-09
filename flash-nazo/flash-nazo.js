@@ -18,7 +18,7 @@ $(function() {
     readScript();
 
     // 解説用のボタンクリック処理
-    $(document).on("click", ".show-button", function() {
+    $(document).on("click", ".kaisetsu-button", function() {
         $(this).next(".js_close").toggle();
     });
 
@@ -164,7 +164,7 @@ function answerCheck() {
             if (answer[i] == nazolist[i].a) {
                 collect += 1
                 // 解説追加
-                $(".kaisetu").append('<p class="show-button button-black">' +
+                $(".kaisetu").append('<p class="kaisetsu-button button-black">' +
                     (i + 1) + '</p><div class="js_close"><img src="' +
                     nazolist[i].q + '" /><p>' + nazolist[i].k +
                     '</p><p>答え：<strong>' + nazolist[i].c[nazolist[i].a - 1] +
@@ -172,7 +172,7 @@ function answerCheck() {
                 continue;
             }
             // 解説追加
-            $(".kaisetu").append('<p class="show-button button-red">' + (i + 1) +
+            $(".kaisetu").append('<p class="kaisetsu-button button-red">' + (i + 1) +
                 '</p><div class="js_close"><img src="' + nazolist[i].q +
                 '" /><p>' + nazolist[i].k + '</p><p>答え：<strong>' +
                 nazolist[i].c[nazolist[i].a - 1] + '</strong></p></div>')
