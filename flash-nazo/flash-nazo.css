@@ -94,6 +94,10 @@
     height: auto;
 }
 
+.question-num {
+    font-size: 80%;
+}
+
 .hanko {
     display: none;
     position: absolute;
@@ -217,7 +221,7 @@
 .next-nazo {
   background-color: #454545;
   color: #FFF;
-  padding: 30px 10px;
-  border-radius: 25px;
+  padding: 20px 0;
   cursor: pointer;
+  height: 60%;
 }
