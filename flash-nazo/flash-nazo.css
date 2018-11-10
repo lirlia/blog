@@ -79,17 +79,14 @@
 }
 
 .circle-value {
-    left: 0;
-    top: 14px;
-    bottom: 0;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-    color: #454545;
-    font-weight: bold;
-    font-size: 90%;
+  left: 0;
+  top: 17%;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  color: #454545;
+  font-weight: bold;
+  font-size: 90%;
 }
 
 .question {
@@ -198,4 +195,29 @@
     background: #EF3B50 !important;
     color: #fff !important;
     border: 2px solid #EF3B50 !important;
+}
+
+.box-overlap {
+  display: flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  flex-direction: row;
+  -moz-flex-direction: row;
+  -o-flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+}
+
+.box-content {
+  width: 20%;
+}
+
+.next-nazo {
+  background-color: #454545;
+  color: #FFF;
+  padding: 30px 10px;
+  border-radius: 25px;
+  cursor: pointer;
 }

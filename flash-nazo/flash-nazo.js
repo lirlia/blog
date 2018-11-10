@@ -52,6 +52,12 @@ $(function() {
             $(this).addClass('nazo-ans-active');
         }
     });
+
+    $('.next-nazo').on({
+      "click": function() {
+            nextButton();
+      }
+    })
 });
 
 // タイマーの管理
@@ -74,7 +80,7 @@ function nazoTimer() {
     });
 
     var second = 0;
-    var timerId = setInterval(function() {
+    timerId = setInterval(function() {
         second += 1;
         if (second >= setSecond) {
             clearInterval(timerId);
@@ -124,6 +130,12 @@ function gameStart() {
     $(".ans3").text(nazolist[counter - 1].c[2]);
     $(".ans4").text(nazolist[counter - 1].c[3]);
 
+}
+
+function nextButton() {
+  clearInterval(timerId);
+  counter = counter + 1
+  gameStart();
 }
 
 //
