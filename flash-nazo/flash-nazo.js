@@ -9,8 +9,8 @@ $(function() {
 
     // 最初のルール説明
     $(".readme ul").text("");
-    $(".readme ul").append("<li>問題は全部で<strong>" + mondai + "問</strong>出題されます</li>")
-    $(".readme ul").append("<li><strong>" + setSecond + "秒</strong>たつと次の問題に切り替わります</li>")
+    $(".readme ul").append("<li>問題は全部で<span class='font-red'>" + mondai + "問</span>出題されます</li>")
+    $(".readme ul").append("<li><span class='font-red'>" + setSecond + "秒</span>たつと次の問題に切り替わります</li>")
     $(".readme ul").append("<li>早く解けたら「次へ」を押すと次に進めます</li>")
     $(".readme ul").append("<li>回答は答えに近いものを選ぶ方式です</li>")
     $(".readme ul").append("<li>この画面を押すとゲームスタートです</li>")
