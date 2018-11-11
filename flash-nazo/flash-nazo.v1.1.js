@@ -109,8 +109,12 @@ function nazoTimer() {
     });
 
     second = 0;
+
+    // ゲーム開始時刻を取得
+    if (counter == 1) { startTime = new Date(); }
+
     timerId = setInterval(function() {
-        second += 0.01;
+        second += 1;
         if (second >= setSecond) {
             spendSecond = spendSecond + setSecond;
             clearInterval(timerId);
@@ -118,7 +122,7 @@ function nazoTimer() {
             gameStart();
         }
         countTime = setSecond - second;
-    }, 10);
+    }, 1000);
 };
 
 // ゲーム全体の管理
@@ -159,7 +163,6 @@ function gameStart() {
     $(".ans2").text(nazolist[counter - 1].c[1]);
     $(".ans3").text(nazolist[counter - 1].c[2]);
     $(".ans4").text(nazolist[counter - 1].c[3]);
-
 }
 
 // 次へが押された時の処理
@@ -182,6 +185,12 @@ function readScript() {
 
 // 回答のチェックを行う&結果表示
 function answerCheck() {
+    // ゲーム終了時刻を取得
+    endTime = new Date();
+    console.log(endTime.getTime() - startTime.getTime())
+    var clearSecond = Math.round((endTime.getTime() - startTime.getTime())/1000*100)/100;
+    if (clearSecond > (mondai * setSecond)) { clearSecond = mondai * setSecond }
+
     $(".hide").hide();
     $(".hanko").show();
 
@@ -221,7 +230,7 @@ function answerCheck() {
                 '" /><p>' + nazolist[i].k + '</p><p>答え：<strong>' +
                 nazolist[i].c[nazolist[i].a - 1] + '</strong></p></div>')
         }
-        var clearSecond = Math.round(spendSecond * 10000) / 10000;
+
         var nazo_all_result_messages = "お疲れ様でした<br>あなたの得点は <strong>" + (
             collect / nazolist.length) * 100 + "点</strong> です！<br>(クリアタイム：" + clearSecond + "秒)";
         $(".nazo-all-result-messages").html(nazo_all_result_messages);
