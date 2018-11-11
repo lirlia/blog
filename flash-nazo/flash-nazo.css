@@ -78,21 +78,12 @@
     left: 0;
     width: 100%;
     position: absolute;
-    display: flex;
-    display: -moz-flex;
-    display: -o-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    flex-direction: row;
-    -moz-flex-direction: row;
-    -o-flex-direction: row;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
 }
 .choice-level-content {
-    width: 25%;
-    padding: 5% 2%;
-    margin: 1% 1%;
+  display: inline-block;
+    width: 20%;
+    padding: 2% 1%;
+    margin: 1% 0.5%;
     color: #FFF;
     border-radius: 10px;
 }
