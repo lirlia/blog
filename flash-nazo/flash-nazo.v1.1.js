@@ -63,6 +63,7 @@ $(function() {
         }
         $("html,body").animate({scrollTop: $('.nazo-screen').offset().top})
         $(".choice-level .choice-level-content").hide();
+        $(".choice-level-notice").hide();
         $(".question").attr("onload", "nazoTimer();")
 
         // 上へ戻るボタンは消す
