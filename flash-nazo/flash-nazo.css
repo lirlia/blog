@@ -100,7 +100,7 @@
 .level-easy { background: #AACF52; }
 .level-normal { background: #187FC4; }
 .level-hard { background: #EF3B50; }
-.level-impossible { background: #454545; }
+.level-master { background: #454545; }
 
 .circle {
     position: relative;

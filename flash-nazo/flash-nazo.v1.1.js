@@ -58,7 +58,7 @@ $(function() {
             break;
           case 3:
             setSecond = 5
-            level = "IMPOSSIBLE"
+            level = "MASTER"
             break;
         }
         $("html,body").animate({scrollTop: $('.nazo-screen').offset().top})
