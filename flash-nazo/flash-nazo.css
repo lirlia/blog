@@ -44,6 +44,7 @@
     .readme li {
       height: 25px;
     }
+
 }
 
 @media screen and (min-width:770px) {
@@ -71,6 +72,35 @@
       height: 60px;
     }
 }
+
+.choice-level {
+    top: 30%;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+}
+.choice-level-content {
+    width: 25%;
+    padding: 5% 2%;
+    margin: 1% 1%;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.level-easy { background: #AACF52; }
+.level-normal { background: #187FC4; }
+.level-hard { background: #EF3B50; }
+.level-impossible { background: #454545; }
 
 .circle {
     position: relative;
