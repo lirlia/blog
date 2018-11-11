@@ -238,8 +238,8 @@ function answerCheck() {
 
         var facebook_href = 'https://www.facebook.com/sharer.php?u=' +
             location.href;
-        var twitter_href_text = '【#フラッシュ謎解き ' + level + 'モード】あなたの得点は ' + (collect / nazolist.length) * 100 +
-            "点 です！ クリアタイム:" + clearSecond + "秒  挑戦する→ " + location.href + ' ' + nazo_name + " @tenhouginsamaさんから";
+        var twitter_href_text = '【' + nazo_name + ' ' + level + 'モード】あなたの得点は ' + (collect / nazolist.length) * 100 +
+            "点 です！ クリアタイム:" + clearSecond + "秒  挑戦する→ " + location.href + " #フラッシュ謎解き @tenhouginsamaさんから";
         var twitter_href = 'https://twitter.com/intent/tweet?text=' +
             encodeURIComponent(twitter_href_text);
         var line_href = 'https://line.me/R/msg/text/?' + $('.entry-title').text() +
