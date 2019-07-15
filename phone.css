@@ -244,14 +244,13 @@ html,body{
 }
 
 .list-entry-article{
-    width:96%;
-    height:100px;
-    border:none !important;
-    float:left;
-    background-color:#fff;
-    padding:1%;
-    margin:1%;
-
+  width: 96%;
+  height: 120px;
+  border: none !important;
+  float: left;
+  background-color: #fff;
+  padding: 3% 2%;
+  margin: 1%;
 }
 
 .entry-footer-time {
