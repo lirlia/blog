@@ -11,6 +11,7 @@ var html = '<p>他のシリーズはこちらから遊べます↓</p><ul class=
 '<li><a href="https://www.nazomap.com/entry/201901_flash-nazo10">[第10弾] フラッシュ謎解きに挑戦！</a><span style="display:none">　←現在挑戦中の問題</span></li>' +
 '<li><a href="https://www.nazomap.com/entry/201905_flash-nazo11">[第11弾] フラッシュ謎解きに挑戦！</a><span style="display:none">　←現在挑戦中の問題</span></li>' +
 '<li><a href="https://www.nazomap.com/entry/201907_flash-nazo12">[第12弾] フラッシュ謎解きに挑戦！</a><span style="display:none">　←現在挑戦中の問題</span></li>' +
+'<li><a href="https://www.nazomap.com/entry/201908_flash-nazo13">[第13弾] フラッシュ謎解きに挑戦！</a><span style="display:none">　←現在挑戦中の問題</span></li>' +
 '</ul>'
 var flashlinkHTML = document.querySelector("div#flash-nazo-link");
 
