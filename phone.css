@@ -318,6 +318,42 @@ html,body{
 .date-first {
     display:none;
 }
+
+/*↓----更新日時表示----↓*/
+.lastmod {
+  background-color: transparent;
+  padding: 5px 0px;
+  text-decoration: none;
+  font-size: 90%;
+  display: inline;
+  margin-left: 0px;
+  color: #EF3B50;
+  font-weight: 700;
+}
+.lastmod::before {
+  margin-right: 5px;
+  margin-left: 10px;
+  padding-left: 3px;
+  content: '更新日:';
+  color: #EF3B50;
+}
+
+.date {
+  font-size: 90%
+}
+
+.date a {
+  background-color: transparent;
+  padding: 5px 0px 5px 6px;
+  text-decoration: none;
+  display: inline;
+}
+.date a::before {
+  margin-right: 5px;
+  padding-left: 3px;
+  content: '投稿日:';
+}
+
 .ads_center {
     position:relative;
     display:block;
