@@ -565,12 +565,44 @@ html[itemtype="http://schema.org/Blog"] .entry {
 .date {
   font-weight: bold;
   margin-bottom: 10px;
+  color: #454545;
 }
 .date a {
-  color: #33B0DD;
+  color: #454545;
   text-decoration: none;
   font-size: 90%;
 }
+
+/*↓----更新日時表示----↓*/
+.lastmod {
+  background-color: transparent;
+  padding: 5px 0px;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline;
+  margin-left: 0px;
+  color: #EF3B50;
+}
+.lastmod::before {
+  margin-right: 5px;
+  margin-left: 10px;
+  padding-left: 3px;
+  content: '更新日:';
+  color: #EF3B50;
+}
+.entry-date a {
+  background-color: transparent;
+  padding: 5px 0px 5px 6px;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline;
+}
+.entry-date a::before {
+  margin-right: 5px;
+  padding-left: 3px;
+  content: '投稿日:';
+}
+
 /* カテゴリ */
 .categories {
   margin: 30px 0 30px 0;
