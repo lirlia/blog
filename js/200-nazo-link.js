@@ -14,7 +14,7 @@ if(flashlinkHTML != null) {
 	flashlinkHTML.innerHTML = html;
 }
 
-$("#200-nazo-link ul a").each(function(i, elem) {
+$("#two-nazo-link ul a").each(function(i, elem) {
 	if ($(elem).attr("href") == location.href) {
 		$(elem).next("span").show()
 	}
