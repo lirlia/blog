@@ -8,7 +8,7 @@ var html = '<p>他のシリーズはこちらから遊べます↓</p><ul class=
 '<li><a href="https://www.nazomap.com/entry/20150615_nazo7">【頭の体操】ひらめき力を鍛える「謎解き200問」その7 </a><span style="display:none">　←現在挑戦中の問題</span></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150615_nazo8">【頭の体操】ひらめき力を鍛える「謎解き200問」その8 </a><span style="display:none">　←現在挑戦中の問題</span></li>' +
 '</ul>'
-var flashlinkHTML = document.querySelector("div#200-nazo-link");
+var flashlinkHTML = document.querySelector("div#two-nazo-link");
 
 if(flashlinkHTML != null) {
 	flashlinkHTML.innerHTML = html;
