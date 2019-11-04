@@ -1435,7 +1435,9 @@ https://design.webclips.jp/youtube-movie-size/
 -------------------------------------------------------- */
 
 .show-button{
+    color: #454545 !important;
     display: inline-block;
+    background: #e4e4e4;
     border-bottom: 1px solid #454545;
     border-radius: 5px;
     padding: 10px 15px;
