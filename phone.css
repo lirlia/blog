@@ -348,6 +348,7 @@ html,body{
   text-decoration: none;
   display: inline;
 }
+
 .date a::before {
   margin-right: 5px;
   padding-left: 3px;
@@ -1435,15 +1436,20 @@ https://design.webclips.jp/youtube-movie-size/
 
 .show-button{
     display: inline-block;
-    border: 2px solid #333;
+    border-bottom: 1px solid #454545;
     border-radius: 5px;
     padding: 10px 15px;
     cursor: pointer;
 }
+.show-button:before {
+    content: "\f008";
+    font-family: "blogicon";
+    padding-right: 10px;
+}
 .show-button:hover{
-    *background: #333 !important;
-    *color: #ffffff　!important;
-    *transition: .3s;
+    background: #EF3B50 !important;
+    color: #ffffff　!important;
+    transition: .3s;
 }
 
 .js_close { display: none; }
