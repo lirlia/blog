@@ -2355,7 +2355,7 @@ top: -2px;
 
 .show-button{
     color: #454545 !important;
-    background: #fff;
+    background: #e4e4e4;
     display: inline-block;
     border-bottom: 1px solid #454545;
     border-radius: 5px;
@@ -2373,11 +2373,7 @@ top: -2px;
     color: #fff !important;
     transition: .3s;
 }
-.show-button:hover{
-    background: #EF3B50 !important;
-    color: #ffffff　!important;
-    transition: .3s;
-}
+
 .js_close { display: none; }
 
 /*用途不明*/
