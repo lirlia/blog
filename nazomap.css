@@ -2649,7 +2649,6 @@ table.koen td {
 	background-color: #F6F6F6;
 }
 .table-of-contents li {
-  display: none;
 	list-style-type: decimal;
 }
 .table-of-contents > li:first-child {

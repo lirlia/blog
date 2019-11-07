@@ -932,7 +932,6 @@ margin-right: auto;
 }
 .table-of-contents li {
 	list-style-type: decimal !important;
-	display: none;
 }
 
 .table-of-contents > li:first-child {
