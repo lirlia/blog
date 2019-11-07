@@ -918,7 +918,7 @@ margin-right: auto;
 }
 .table-of-contents:after {
 	display: block;
-	content: 'この記事の目次 [クリックで表示]';
+	content: 'この記事の目次 [クリックで隠す]';
 	font-weight: bold;
 	font-size: 120%;
 	position: absolute;
@@ -1638,6 +1638,40 @@ ul.link1, ul.link2 {
         -ms-transform:skew(8deg) rotate(3deg);
          -o-transform:skew(8deg) rotate(3deg);
             transform:skew(8deg) rotate(3deg);
+}
+
+/*
+2019/11/07 リストを枠で囲むcss
+*/
+
+.box-1 {
+    margin: 2em 0;
+    border: solid 3px #33B0DD;
+    border-radius: 8px;
+}
+.box-title {
+    display: inline-block;
+    position: relative;
+    top: -14px;
+    left: 10px;
+    padding: 0 9px;
+    margin: 0 7px;
+    background: #fff;
+    color: #33B0DD;
+    font-size: 19px;
+    line-height: 1.4;
+}
+.box-title:before {
+    font-family: "blogicon";
+    padding-right: 4px;
+    content: "\f01a";
+}
+.box-content {
+    padding: 0 1.5em 24px;
+}
+.box-content li {
+    padding: .5em 0;
+    line-height: 1.5;
 }
 
 /*------------------------------------------------------
