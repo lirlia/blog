@@ -2594,7 +2594,6 @@ top: -2px;
 }
 .show-button:hover{
     background: #EF3B50;
-    display: inline-block;
     color: #fff !important;
     transition: .3s;
 }
