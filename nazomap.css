@@ -2710,6 +2710,23 @@ table.koen td {
 }
 
 /*
+* 2019.11.09 先に知っておくと良い情報用のtable設定
+*/
+.info-table {
+    text-align: center;
+    width: 100%;
+}
+
+.info-table-th{
+    width: 106px;
+    color: #33B0DD;
+}
+
+.info-table td {
+    font-size: 100% !important;
+}
+
+/*
 2016.09.08 隙間用
 */
 #sukima {
