@@ -231,7 +231,7 @@
     color: #EF3B50 !important;
 }
 
-.box-overlap {
+.flash-box-overlap {
   display: flex;
   display: -moz-flex;
   display: -o-flex;
@@ -244,7 +244,7 @@
   -ms-flex-direction: row;
 }
 
-.box-content {
+.flash-box-content {
   width: 20%;
 }
 
