@@ -2017,6 +2017,77 @@ table.koen td {
     font-size: 100% !important;
 }
 
+/*********************************
+* タイムライン
+*********************************/
+.ptimeline-wrap{
+    margin:0 auto 2rem;
+}
+.ptimeline-wrap .ptimeline{
+    padding:0 !important;
+    list-style:none;
+}
+.ptimeline-wrap .ptimeline-label {
+    padding: 3px 0 0 2px;
+    color: #aaa;
+    font-size: 12px;
+    font-weight: 500;
+}
+.ptimeline-wrap .ptimeline-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.5;
+    color:#33B0DD;
+}
+.ptimeline-wrap .ptimeline-main {
+    margin-top: 0.5em;
+    padding: 0 0 1.5em;
+    font-size: 0.9em;
+    line-height: 1.8;
+    border-bottom: dashed 1px #ddd;
+    color:#555;
+}
+.ptimeline-wrap .ptimeline-main img{
+  display:block;
+  margin:1em auto;
+}
+.ptimeline-wrap .ptimeline-item {
+    position: relative;
+    padding: 0 0 1em 1.5em !important;
+    margin-bottom:0 !important;
+    border:none;
+}
+.ptimeline-wrap .ptimeline .ptimeline-item:before {
+    content: "";
+    width: 3px;
+    background: #eee !important;
+    display: block;
+    position: absolute;
+    top: 25px;
+    bottom: -3px;
+    left: 5px;
+}
+.ptimeline-wrap .ptimeline-item:last-child:before{
+    content:none;
+}
+/*********************************
+* タイムライン マーカー
+*********************************/
+.ptimeline-wrap .ptimeline-marker{
+    display: block;
+    position: absolute;
+    content: "";
+    top: 6px;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: solid 3px #33B0DD;
+}
+.ptimeline-wrap .ptimeline-item:first-child .ptimeline-marker,.ptimeline-wrap .ptimeline-item:last-child .ptimeline-marker{
+    background:#33B0DD;
+}
+
 /*
 2016.01.10 プロフィールSNS
 */
