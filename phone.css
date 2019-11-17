@@ -1496,6 +1496,12 @@ strong {
     color: #D53A3A;
 }
 
+.marker{
+    background: linear-gradient(transparent 0%, #fff799 0%);
+    font-weight: bold;
+    border-radius:6px;
+}
+
 .entry-content blockquote > strong{
     background:#fff !important;
 }
