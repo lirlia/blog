@@ -114,8 +114,8 @@ html,body{
     -webkit-transform:translateZ(0);
     z-index: 9999999;
     top: 0;
-    right: -260px;
-    width: 260px;
+    right: -90%;
+    width: 90%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -124,68 +124,65 @@ html,body{
 #slideMenu > .slideMenuInner {
     position: static;
     width: 100%;
-    height: 100%;
     padding: 0;
     margin: 0;
+    background: #FFF;
 }
 
-.first-li {
-    display: block;
-    position: relative;
-    float: none;
-    width: 100%;
-    height: 40px;
-    margin: 0 auto;
-    border-top: 1px solid #eee;
-    background-color: #1F1F1F;
-    line-height: 40px;
-    color: #F3F3F3;
+.slideMenuInner-header {
+    padding: 10px;
+    text-align: center;
+    background: #33B0DD;
+    color: #fff;
+    font-size: 150%;
     font-weight: bold;
-    padding-left: 7px;
 }
 
-.second-ul {
-    display: block;
-    position: relative;
-    float: none;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #F3F3F3;
-    font-size: 100%;
+.slideMenuInner-title {
+    padding: 8px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    background: #ABBF16;
+    color: #fff;
+    font-weight: bold;
+    font-size: 110%;
 }
 
-.second-li {
-    padding: 5px 0;
-
+.slideMenuInner-contents {
+    margin: 10px 0;
 }
 
-.third-ul {
-    display: block;
-    position: relative;
-    float: none;
-    width: 100%;
-    margin: 0 auto;
-    border-top: 1px solid #eee;
-    background-color: #F3F3F3;
-    font-size: 100%;
+.slideMenuInner-button {
+    text-align: center;
+    padding: 15px;
+    border-radius: 3px;
+    margin: 0 15px;
+    color: #fff;
+    font-weight: bold;
 }
 
-.third-li {
-    padding: 5px 0;
-    border-bottom: 1px solid #F3F3F3;
+.slideMenuInner-button-home {
+    background: #33B0DD;
 }
 
+.slideMenuInner-button-home:before {
+    font-family: "blogicon";
+    content: "\f017 ";
+}
 
-#slideMenu > .slideMenuInner > li:hover a {
-    background-color: #fff;/*スライドメニューの背景色（マウスホバー時）*/
-    color: #333;/*スライドメニューの文字色（マウスホバー時）*/
+.slideMenuInner-button-post {
+    background: #FBAED0;
 }
-#slideMenu > .slideMenuInner > li > a:active {
-    opacity: .8;
+
+.slideMenuInner-button-post:before {
+    font-family: "blogicon";
+    content: "\f04b ";
 }
-#slideMenu > .slideMenuInner > li:hover > ul.second-level {
-    display: none;
+
+.slideMenuInner-contents-text {
+    margin: 0 14px;
 }
+
 .closeArea {
     height: 0;
     background-color: #333;/*クローズエリア（スライドメニューの下の部分）の色*/
