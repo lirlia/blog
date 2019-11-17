@@ -665,7 +665,7 @@ html[itemtype="http://schema.org/Blog"] .entry {
 /* entry-content の中の書式 */
 .entry-content {
   font-size: 95%;
-  line-height: 1.7;
+  *line-height: 1.7;
   padding-bottom: 10px;
   border-bottom: 1px solid #dddddd;
 }
@@ -1691,7 +1691,7 @@ div.entry-inner {
 
 div.entry-content {
     color: #333;
-    font-size:100%;
+    font-size:107%;
     letter-spacing:1.6px;
 }
 
@@ -1752,7 +1752,7 @@ strong {
 .entry-content p {
     margin: 0 0 0.5em 0;
     letter-spacing:1.6px;
-    line-height: 1.7;
+    line-height: 1.9;
 }
 
 .entry-content blockquote > strong{
@@ -2718,7 +2718,7 @@ table.koen td {
 }
 
 .info-table-th{
-    width: 106px;
+    width: 120px;
     color: #33B0DD;
 }
 
