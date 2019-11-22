@@ -2882,7 +2882,7 @@ table.koen td {
 }
 .table-of-contents:after {
 	display: block;
-	content: 'この記事の目次 [クリックで隠す]';
+	content: '目次(タップで移動できます)';
 	font-weight: bold;
 	font-size: 120%;
 	position: absolute;
