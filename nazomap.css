@@ -3466,6 +3466,30 @@ https://design.webclips.jp/youtube-movie-size/
 }
 
 /*------------------------------------------------------
+* 関連記事 ここから
+-------------------------------------------------------- */
+
+#box2{
+    display:inline-block;
+}
+.urllist-image{
+    width: 100%;
+    position:relative;
+    top:-5px;
+    border-radius: 3px 3px 0px 0px;
+}
+.urllist-with-thumbnails{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.urllist-with-thumbnails li {
+    width: 28%;
+    margin: 2% 2% 5px;
+    font-size:85%;
+}
+
+/*------------------------------------------------------
 * TOPページ限定の設定 ここから
 -------------------------------------------------------- */
 
