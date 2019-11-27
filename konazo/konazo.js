@@ -31,7 +31,7 @@ $(function() {
         + '<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%855">難易度★5の謎</a>に挑戦</li>'
         + '</ul>');
     $(".konazo-end").append('<p>　</p>')
-    $(".konazo-end").append('<p>\ 解けたら友達にも出題しよう/</p>')
+    $(".konazo-end").append('<p style="text-align: center">＼ 解けたら友達にも出題しよう ／</p>')
     $(".konazo-end").append('<a target="_blank"><p class="nazo-facebook nazo-sns-box">Facebookで謎をシェア</p></a>')
     $(".konazo-end").append('<a target="_blank"><p class="nazo-twitter nazo-sns-box" >Twitterで謎をシェア</p></a>')
     $(".konazo-end").append('<a target="_blank"><p class="nazo-line nazo-sns-box">LINEで謎をシェア</p></a>')
