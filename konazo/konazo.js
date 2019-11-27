@@ -15,7 +15,7 @@ $(function() {
     
     // No.1だけ処理を変える
     if (num == 1) {
-        $(".nazo-prev").html('<p>　</p>);
+        $(".nazo-prev").html('<p>　</p>');
     } else {
         $(".nazo-prev").children('a').text('No' + prev +'を解く→');
     }
