@@ -16,3 +16,9 @@
     content: "\f035　";
 }
 .nazo-line { background-color: #1EC221; }
+
+.nazo-next-prev { display: flex }
+.nazo-next { }
+.nazo-prev {  margin:0 0 0 auto; }
+.nazo-first { margin:0 0 0 auto; }
+.nazo-button { }
