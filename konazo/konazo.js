@@ -7,16 +7,17 @@ $(function() {
     var next = num + 1
     
     $(".konazo-end").append('<div class="nazo-next-prev">'
-        + '<a href="https://www.nazomap.com/entry/gin_nazo_' + next + '"/><p class="nazo-button nazo-next">←No' + next + 'を解く</p></a>'
-        + '<a href="https://www.nazomap.com/entry/gin_nazo_1"><p class="nazo-button nazo-first">No1に戻る</p></a>'
-        + '<a href="https://www.nazomap.com/entry/gin_nazo_' + prev + '"/><p class="nazo-button nazo-prev">No' + prev +'を解く→</p></a>'
+        + '<p class="nazo-button nazo-next"><a href="https://www.nazomap.com/entry/gin_nazo_' + next + '"/></a></p>'
+        + '<p class="nazo-button nazo-first"><a href="https://www.nazomap.com/entry/gin_nazo_1">No1に戻る</a></p>'
+        + '<p class="nazo-button nazo-prev"><a href="https://www.nazomap.com/entry/gin_nazo_' + prev + '"/></a></p>'
         + '</div>')
-    $(".nazo-next").append('<a href="https://www.nazomap.com/entry/gin_nazo_' + next + '"/>←No' + next + 'を解く</a>')
-    $(".nazo-first").append('<a href="https://www.nazomap.com/entry/gin_nazo_1">No1に戻る</a>')
+    $(".nazo-next").children('a').text('←No' + next + 'を解く')
     
     // No.1だけ処理を変える
     if (num == 1) {
-        $(".nazo-prev").text('')
+        $(".nazo-prev").html('<p>　</p>);
+    } else {
+        $(".nazo-prev").children('a').text('No' + prev +'を解く→');
     }
     
     $(".konazo-end").append('<p>　</p>')
