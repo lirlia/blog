@@ -13,20 +13,20 @@ $(function() {
         var html = '<p>　</p>'
     }
 
-    $(".konazo-end").append('<div class="nazo-next-prev">')
-    $(".konazo-end").append('<p class="nazo-button nazo-next"><a href="https://www.nazomap.com/entry/gin_nazo_' + next + '"/>←No' + next + 'を解く</a></p>')
-    $(".konazo-end").append('<p class="nazo-button nazo-first"><a href="https://www.nazomap.com/entry/gin_nazo_1">No1に戻る</a></p>')
-    $(".konazo-end").append(html)
-    $(".konazo-end").append('</div>')
+    $(".konazo-end").append('<div class="nazo-next-prev">'
+        + '<p class="nazo-button nazo-next"><a href="https://www.nazomap.com/entry/gin_nazo_' + next + '"/>←No' + next + 'を解く</a></p>'
+        + '<p class="nazo-button nazo-first"><a href="https://www.nazomap.com/entry/gin_nazo_1">No1に戻る</a></p>'
+        + html
+        + '</div>')
     $(".konazo-end").append('<p>　</p>')
     $(".konazo-end").append('<p>🔻他の難易度の問題にも挑戦しよう！</p>')
-    $(".konazo-end").append('<ul>')
-    $(".konazo-end").append('<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%851">難易度★1の謎</a>に挑戦</li>')
-    $(".konazo-end").append('<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%852">難易度★2の謎</a>に挑戦</li>')
-    $(".konazo-end").append('<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%853">難易度★3の謎</a>に挑戦</li>')
-    $(".konazo-end").append('<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%854">難易度★4の謎</a>に挑戦</li>')
-    $(".konazo-end").append('<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%855">難易度★5の謎</a>に挑戦</li>')
-    $(".konazo-end").append('</ul>')
+    $(".konazo-end").append('<ul>'
+        + '<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%851">難易度★1の謎</a>に挑戦</li>'
+        + '<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%852">難易度★2の謎</a>に挑戦</li>'
+        + '<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%853">難易度★3の謎</a>に挑戦</li>'
+        + '<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%854">難易度★4の謎</a>に挑戦</li>'
+        + '<li><a href="https://www.nazomap.com/archive/category/%E9%9B%A3%E6%98%93%E5%BA%A6%E2%98%855">難易度★5の謎</a>に挑戦</li>'
+        + '</ul>');
     $(".konazo-end").append('<p>　</p>')
     $(".konazo-end").append('<p>\ 解けたら友達にも出題しよう/</p>')
     $(".konazo-end").append('<a target="_blank"><p class="nazo-facebook nazo-sns-box">Facebookで謎をシェア</p></a>')
