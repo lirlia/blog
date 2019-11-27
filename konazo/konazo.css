@@ -19,6 +19,6 @@
 
 .nazo-next-prev { display: flex }
 .nazo-next { }
-.nazo-prev {  margin:0 0 0 auto; }
-.nazo-first { margin:0 0 0 auto; }
+.nazo-prev {  margin:0 0 0 auto !important; }
+.nazo-first { margin:0 0 0 auto !important; }
 .nazo-button { }
