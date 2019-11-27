@@ -5,21 +5,21 @@ $(function() {
     var num  = Number(list[2])
     var prev = num - 1
     var next = num + 1
-    
+
     $(".konazo-end").append('<div class="nazo-next-prev">'
         + '<p class="nazo-button nazo-next"><a href="https://www.nazomap.com/entry/gin_nazo_' + next + '"/></a></p>'
         + '<p class="nazo-button nazo-first"><a href="https://www.nazomap.com/entry/gin_nazo_1">No1に戻る</a></p>'
         + '<p class="nazo-button nazo-prev"><a href="https://www.nazomap.com/entry/gin_nazo_' + prev + '"/></a></p>'
         + '</div>')
     $(".nazo-next").children('a').text('←No' + next + 'を解く')
-    
+
     // No.1だけ処理を変える
     if (num == 1) {
-        $(".nazo-prev").html('<p>　</p>');
+        $(".nazo-prev").html('<p>　 </p>');
     } else {
         $(".nazo-prev").children('a').text('No' + prev +'を解く→');
     }
-    
+
     $(".konazo-end").append('<p>　</p>')
     $(".konazo-end").append('<p>🔻他の難易度の問題にも挑戦しよう！</p>')
     $(".konazo-end").append('<ul>'
