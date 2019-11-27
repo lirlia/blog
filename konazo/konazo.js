@@ -6,18 +6,21 @@ $(function() {
     var prev = num - 1
     var next = num + 1
     
+    $(".konazo-end").append('<div class="nazo-next-prev">'
+        + '<p class="nazo-button nazo-next"></p>'
+        + '<p class="nazo-button nazo-first"></p>'
+        + '<p class="nazo-button nazo-prev"></p>'
+        + '</div>')
+    $(".nazo-next").append('<a href="https://www.nazomap.com/entry/gin_nazo_' + next + '"/>←No' + next + 'を解く</a>')
+    $(".nazo-first").append('<a href="https://www.nazomap.com/entry/gin_nazo_1">No1に戻る</a>')
+    
     // No.1だけ処理を変える
     if (num != 1) {
-        var html = '<p class="nazo-button nazo-prev"><a href="https://www.nazomap.com/entry/gin_nazo_' + prev + '"/>No' + prev +'を解く→</a></p>'
+        $(".nazo-prev").append('<a href="https://www.nazomap.com/entry/gin_nazo_' + prev + '"/>No' + prev +'を解く→</a>')
     } else {
-        var html = '<p>　</p>'
+        $(".nazo-prev").append('<p>　</p>')
     }
-
-    $(".konazo-end").append('<div class="nazo-next-prev">'
-        + '<p class="nazo-button nazo-next"><a href="https://www.nazomap.com/entry/gin_nazo_' + next + '"/>←No' + next + 'を解く</a></p>'
-        + '<p class="nazo-button nazo-first"><a href="https://www.nazomap.com/entry/gin_nazo_1">No1に戻る</a></p>'
-        + html
-        + '</div>')
+    
     $(".konazo-end").append('<p>　</p>')
     $(".konazo-end").append('<p>🔻他の難易度の問題にも挑戦しよう！</p>')
     $(".konazo-end").append('<ul>'
