@@ -18,10 +18,10 @@ $(function() {
 
     // No.1/75だけ処理を変える
     if (num == 0) {
-        $(".nazo-prev").html('<p>　 </p>');
+        $(".nazo-prev").html('<p>　　　　　　　</p>');
         $(".nazo-next").children('a').text('←次の謎を解く');
-    } if (num == 76) {
-        $(".nazo-next").html('<p>　 </p>');
+    } if (next == nazotore_url_list.length) {
+        $(".nazo-next").html('<p>　　　　　　　</p>');
         $(".nazo-prev").children('a').text('前の謎を解く→');
     } else {
         $(".nazo-next").children('a').text('←次の謎を解く');
