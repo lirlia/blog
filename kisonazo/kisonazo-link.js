@@ -21,7 +21,7 @@ $(function() {
         $(".nazo-prev").html('<p>　 </p>');
         $(".nazo-next").children('a').text('←次の謎を解く');
     } if (next == kisonazo_url_list.length) {
-        $(".nazo-next").html('<p>　 </p>');
+        $(".nazo-next").html('<p>　　　　　　　</p>');
         $(".nazo-prev").children('a').text('前の謎を解く→');
     } else {
         $(".nazo-next").children('a').text('←次の謎を解く');
