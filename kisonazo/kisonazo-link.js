@@ -20,7 +20,7 @@ $(function() {
     if (num == 0) {
         $(".nazo-prev").html('<p>　 </p>');
         $(".nazo-next").children('a').text('←次の謎を解く');
-    } if (num == kisonazo_url_list.length) {
+    } if (next == kisonazo_url_list.length) {
         $(".nazo-next").html('<p>　 </p>');
         $(".nazo-prev").children('a').text('前の謎を解く→');
     } else {
