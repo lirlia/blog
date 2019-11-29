@@ -2096,6 +2096,35 @@ table.koen td {
 }
 
 /*
+* 2019.11.29 小謎用のcss
+*/
+
+.nazo-sns-box {
+    margin: 10px 20px;
+    padding: 7px 28px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+}
+.nazo-facebook { background: #3274bd}
+.nazo-facebook:before {
+    font-family: "blogicon";
+    content: "\f036　";
+}
+.nazo-twitter { background: #55acee}
+.nazo-twitter:before {
+    font-family: "blogicon";
+    content: "\f035　";
+}
+.nazo-line { background-color: #1EC221; }
+
+.nazo-next-prev { display: flex }
+.nazo-next { }
+.nazo-prev {  margin:0 0 0 auto !important; }
+.nazo-first { margin:0 0 0 auto !important; }
+.nazo-button { }
+
+/*
 2016.01.10 プロフィールSNS
 */
 
