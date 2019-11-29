@@ -25,7 +25,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<ul>' +
 '<li><a href="https://www.nazomap.com/entry/0219_ginza">銀座令嬢誘拐事件 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/1222_ansatsunetabare">暗殺教室 練習問題 に挑戦</a></li>' +
-'<li><a href="https://www.nazomap.com/entry/1202_%25E5%25AE%2587%25E5%25AE%2599%25E6%2580%25AA%25E7%258D%25A3%25E7%25B7%25B4%25E7%25BF%2592%25E5%2595%258F%25E9%25A1%258C">宇宙怪獣からの脱出 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/1202_%E5%AE%87%E5%AE%99%E6%80%AA%E7%8D%A3%E7%B7%B4%E7%BF%92%E5%95%8F%E9%A1%8C">宇宙怪獣からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2014/09/01/190000">パズルガールズからの挑戦状 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150501_masukaradeeve">ホテルコルテシア練習問題 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-santa">サンタ姫を助け出せ！ に挑戦</a></li>' +
