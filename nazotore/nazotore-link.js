@@ -31,6 +31,7 @@ $(function() {
     $(".nazotore-end").append('<p>　</p>')
     $(".nazotore-end").append('<p>🔻他の謎解きにも挑戦しよう！</p>')
     $(".nazotore-end").append('<ul>'
+        + '<li><a href="https://www.nazomap.com/entry/scrap-practice-nazo">リアル脱出ゲームの練習問題</a>に挑戦</li>'
         + '<li><a href="https://www.nazomap.com/entry/kisonazo_1">リアル脱出ゲームででる基礎なぞ</a>に挑戦</li>'
         + '<li><a href="https://www.nazomap.com/entry/gin_nazo_1">小学生から解ける謎解き練習問題</a>に挑戦</li>'
         + '</ul>');
