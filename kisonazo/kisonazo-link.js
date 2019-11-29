@@ -12,13 +12,13 @@ $(function() {
 
     $(".kisonazo-end").append('<div class="nazo-next-prev">'
         + '<p class="nazo-button nazo-next"><a href="https://www.nazomap.com/entry/' + kisonazo_url_list[next] + '"/></a></p>'
-        + '<p class="nazo-button nazo-first"><a href="https://www.nazomap.com/entry/kisonazo_1">第1弾に戻る</a></p>'
+        + '<p class="nazo-button nazo-first"><a href="https://www.nazomap.com/entry/kisonazo_1">最初に戻る</a></p>'
         + '<p class="nazo-button nazo-prev"><a href="https://www.nazomap.com/entry/' + kisonazo_url_list[prev] + '"/></a></p>'
         + '</div>')
 
     // 最初と最後だけ処理を変える
     if (num == 0) {
-        $(".nazo-prev").html('<p>　 </p>');
+        $(".nazo-prev").html('<p>　　　　　　　</p>');
         $(".nazo-next").children('a').text('←次の謎を解く');
     } if (next == kisonazo_url_list.length) {
         $(".nazo-next").html('<p>　　　　　　　</p>');
