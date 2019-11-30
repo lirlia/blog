@@ -1,0 +1,42 @@
+var ajito_all_html=
++ '<h4>難易度と探索難易度の他イベントとの比較</h4>'
++ '<p><img class="hatena-fotolife" src="https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20191201/20191201030921.png" alt="ルーム型イベント比較表" /></p>'
++ '<p>🔻各イベントの略語と正式名（リンク先は感想レポートです）</p>'
++ '<ul>'
++ '<li>RED ROOM → <a href="https://www.nazomap.com/entry/20150905_redroom">Escape from the RED ROOM</a></li>'
++ '<li>うだつ → <a href="https://www.nazomap.com/entry/2014/07/11/232759">うだつのあがらない勇者からの脱出</a></li>'
++ '<li>ときどき → <a href="https://www.nazomap.com/entry/201809_kanshiin">ときどき監視員が見回りに来る部屋からの脱出</a></li>'
++ '<li>アイドル1 → <a href="https://www.nazomap.com/entry/20160605_idol">アイドルは100万回死ぬ1</a></li>'
++ '<li>アイドル2 → <a href="https://www.nazomap.com/entry/201807_idol2">アイドルは100万回死ぬ2</a></li>'
++ '<li>アンティーク → アンティークルームからの脱出</a></li>'
++ '<li>アンドロイド → <a href="https://www.nazomap.com/entry/201804_android">アンドロイド工場からの脱出</a></li>'
++ '<li>エイリアン → <a href="古代遺跡エルドラドからの脱出">エイリアン研究所からの脱出</a></li>'
++ '<li>エスケープ博士 → <a href="https://www.nazomap.com/entry/0217_escape">エスケープ博士からの挑戦状</a></li>'
++ '<li>エルドラド → <a href="https://www.nazomap.com/entry/eldrad_repo">古代遺跡エルドラドからの脱出</a></li>'
++ '<li>パズル1 → <a href="https://www.nazomap.com/entry/2014/07/22/222533">パズルルームからの脱出1</a></li>'
++ '<li>パズル2 → <a href="https://www.nazomap.com/entry/20150527_puzzleroom2">パズルルームからの脱出2</a></li>'
++ '<li>ペパキン → <a href="https://www.nazomap.com/entry/20151009_paper">ペーパーキングダムからの脱出</a></li>'
++ '<li>ラジオ → あるラジオ放送局からの脱出</a></li>'
++ '<li>十人 → <a href="https://www.nazomap.com/entry/2014/06/03/132958">十人の憂鬱な容疑者</a></li>'
++ '<li>巨人 → <a href="https://www.nazomap.com/entry/20160619_shingeki">巨人に包囲された古城からの脱出</a></li>'
++ '<li>時空1 → <a href="https://www.nazomap.com/entry/%E6%99%82%E3%82%92%E8%B6%85%E3%81%88%E3%82%8B%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0%EF%BC%81%E3%80%8C%E6%99%82%E7%A9%BA%E7%A0%94%E7%A9%B6%E6%89%80%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%E3%80%8D">時空研究所からの脱出1</a></li>'
++ '<li>時空2 → <a href="https://www.nazomap.com/entry/20170207_2099">時空研究所からの脱出2 2099年からの脱出</a></li>'
++ '<li>暗号王国 → <a href="https://www.nazomap.com/entry/20160809_angou">暗号王国からの脱出</a></li>'
++ '<li>牢獄1 → ある牢獄からの脱出1</a></li>'
++ '<li>牢獄2 → <a href="https://www.nazomap.com/entry/2014/06/08/093304">ある牢獄からの脱出2</a></li>'
++ '<li>秘密結社 → <a href="https://www.nazomap.com/entry/20151206_hakata">秘密結社からの脱出</a></li>'
++ '<li>謎の部屋 → <a href="https://www.nazomap.com/entry/2014/10/19/60%E5%88%86%E3%81%AE%E5%86%8555%E5%88%86%E9%96%93%E6%8E%A2%E7%B4%A2%E3%81%97%E3%81%8B%E3%81%97%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%EF%BC%81%E8%AC%8E%E3%82%92%E8%A7%A3%E3%81%8B%E3%81%AA%E3%81%84%E3%80%8C">謎の部屋からの脱出</a></li>'
++ '<li>宇宙飛行士 → <a href="https://www.nazomap.com/entry/201709_space_brother">宇宙飛行士 第2次選抜試験</a></li>'
++ '<li>追跡者X → <a href="https://www.nazomap.com/entry/201709_realtrap">追跡者Xからの脱出</a></li>'
++ '<li>隠れ鬼1 → <a href="https://www.nazomap.com/entry/20150910_kakure">隠れ鬼からの脱出1</a></li>'
++ '<li>隠れ鬼2 → <a href="https://www.nazomap.com/entry/201803_toshidensetsu">隠れ鬼からの脱出2 ある都市伝説からの脱出</a></li>'
++ '<li>魔法 → 魔法の部屋からの脱出</a></li>'
++ '<li>魔王城1 → <a href="https://www.nazomap.com/entry/2014/07/22/220551">魔王城からの脱出1</a></li>'
++ '<li>魔王城2 → 魔王城からの脱出2</a></li>'
++ '</ul>'
+
+var ajito_comparelinkHTML = document.querySelector("div.ajito-compare");
+
+if(ajito_comparelinkHTML != null) {
+	ajito_comparelinkHTML.innerHTML = ajito_all_html;
+}
