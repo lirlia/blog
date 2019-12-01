@@ -2,7 +2,10 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<p>難易度★１（簡単）</p>' +
 '<ul>' +
 '<li><a href="https://www.nazomap.com/entry/practice-snow-moutain">閉ざされた雪山からの脱出 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/practice-hiroshima">ひろしま謎解き街歩き に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/practice-alice">不思議の国からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-conan-chocolate">コナン チョコレート殺人事件 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201703_shiomokita_scrap">下北沢謎解き街歩き に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150605_onepice">ワンピース 謎解きキャンペーン に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150307_spynetabare">聡明なスパイは耳がいい に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2014/06/12/065313">デスノートの練習問題 に挑戦</a></li>' +
@@ -10,6 +13,9 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '</ul>' +
 '<p>難易度★２</p>' +
 '<ul>' +
+'<li><a href="https://www.nazomap.com/entry/practice-osaka-metro1">大阪メトロ 謎解きメトロ旅 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201903_9rooms">Escape from The NINE ROOMS に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201808_kangoku">夜の巨大監獄からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201906_m2">ポケモン ミューツーの城からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2014/06/17/224155">進撃の巨人 訓練兵最終試験 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150324_babel">バベルの謎を解け に挑戦</a></li>' +
@@ -31,7 +37,8 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '</ul>' +
 '<p>難易度★４</p>' +
 '<ul>' +
-'<li><a href="https://www.nazomap.com/entry/practice-hello-world">本屋巡り謎解き HELLO WORLDに挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/practice-fgo-pyramid">FGO ピラミッド脱出 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/practice-hello-world">本屋巡り謎解き HELLOWORLD に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/0219_ginza">銀座令嬢誘拐事件 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/1222_ansatsunetabare">暗殺教室 練習問題 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/1202_%E5%AE%87%E5%AE%99%E6%80%AA%E7%8D%A3%E7%B7%B4%E7%BF%92%E5%95%8F%E9%A1%8C">宇宙怪獣からの脱出 に挑戦</a></li>' +
