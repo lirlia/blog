@@ -32,7 +32,9 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<li><a href="https://www.nazomap.com/entry/2019/10/15/112221">サイコパス on the ship に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201907_rakuten">Quiz Knock謎解き に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201907_acure">acureの謎解き に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201903_doruaga">ドルアーガの謎 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201902_never">約ネバ 偽りの楽園からの脱出 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201812_chikanazo">地下謎2018 謎ガチャチャレンジ に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2018/04/30/001551">FGO ベーカー街からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20160114_dq">竜王迷宮からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150523_magunorianetabare">マグノリア銀行からの脱出 に挑戦</a></li>' +
@@ -50,6 +52,8 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<ul>' +
 '<li><a href="https://www.nazomap.com/entry/practice-fgo-pyramid">FGO ピラミッド脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-hello-world">本屋巡り謎解き HELLOWORLD に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201808_satsujin">5分間リアル脱出ゲーム 殺人館からの脱出 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201808_1week">SCRAPマガジン 謎まみれの1週間 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20161210_sanrio">びゅ〜るランド最大の危機からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/0219_ginza">銀座令嬢誘拐事件 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20160112_ansatsu2">暗殺教室からの脱出2 に挑戦</a></li>' +
@@ -63,8 +67,9 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '</ul>' +
 '<p>難易度★５(難しい）</p>' +
 '<ul>' +
-'<li><a href="https://www.nazomap.com/entry/2014/04/06/140233">忘れられた実験室からの脱出 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201808_night_circus">夜のサーカス遊園地からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201801_neverland">MENSAの約ネバIQ脳力試験 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/2014/04/06/140233">忘れられた実験室からの脱出 に挑戦</a></li>' +
 '</ul>' +
 '<p>難易度Extra</p>' +
 '<ul>' +
