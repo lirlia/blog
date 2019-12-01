@@ -439,45 +439,6 @@ html,body{
     border-radius: 2px;
 }
 
-/* old */
-
-#top_categories{
-	width:100%;
-	height: 65px;
-	position:relative;
-	display:block;
-}
-
-.my_category {
-  z-index:99999;
-	float:left;
-	text-align:center;
-	position:relative;
-	display:inline-block;
-	width: 20%;
-    padding: 10px 0;
-	color:#fff;
-	height: 85px;
-	font-size:180%;
-	background-color: #33B0DD;
-  border-bottom: 3px solid #237b9a;
-}
-
-.my_category i{
-	color:#fff;
-}
-
-.my_category a,
-.my_category a:visited
-{
-    z-index:99999;
-	color:#fff !important;
-}
-.my_category span {
-	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;
-	font-size:50%;
-}
-
 .my−title {
 	background-color: #33B0DD;
 	font-size: 100%;
