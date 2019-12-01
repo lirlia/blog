@@ -3,13 +3,15 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<ul>' +
 '<li><a href="https://www.nazomap.com/entry/practice-snow-moutain">閉ざされた雪山からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-hiroshima">ひろしま謎解き街歩き に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201907_idle">ラブライブサンシャインの練習問題 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-alice">不思議の国からの脱出 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201803_nagoya">名古屋 地下迷宮に眠る謎 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201802_zoma">大魔王ゾーマからの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-conan-chocolate">コナン チョコレート殺人事件 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201703_shiomokita_scrap">下北沢謎解き街歩き に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150605_onepice">ワンピース 謎解きキャンペーン に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150307_spynetabare">聡明なスパイは耳がいい に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2014/06/12/065313">デスノートの練習問題 に挑戦</a></li>' +
-'<li><a href="https://www.nazomap.com/entry/201907_idle">ラブライブサンシャインの練習問題 に挑戦</a></li>' +
 '</ul>' +
 '<p>難易度★２</p>' +
 '<ul>' +
@@ -21,12 +23,21 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<li><a href="https://www.nazomap.com/entry/20150324_babel">バベルの謎を解け に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201910_hikanazo_nazo">地下謎2019の謎 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2018_chikanazo2018">地下謎2018の謎 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201708_chikanazo4">地下謎2017の謎 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/2016/08/28/【ネタバレ解説】地下謎への招待状2016「地下謎練習">地下謎2016の謎 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/20150802_chika">地下謎2015の謎 に挑戦</a></li>' +
 '</ul>' +
 '<p>難易度★３</p>' +
 '<ul>' +
+'<li><a href="https://www.nazomap.com/entry/2019/10/15/112221">サイコパス on the ship に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201907_rakuten">Quiz Knock謎解き に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201907_acure">acureの謎解き に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201902_never">約ネバ 偽りの楽園からの脱出 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/2018/04/30/001551">FGO ベーカー街からの脱出 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/20160114_dq">竜王迷宮からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150523_magunorianetabare">マグノリア銀行からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/0207_conan3netabare">怪盗キッドからの挑戦状 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/20150704_nazonatsu">リアル脱出ゲームサマーキャンペーン に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-sleepforest">悪い魔女からの挑戦状 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2014/06/07/010503">インペルダウンからの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201907_conan_otameshi">コナン 紺青の美術館からの脱出 に挑戦</a></li>' +
@@ -39,7 +50,9 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<ul>' +
 '<li><a href="https://www.nazomap.com/entry/practice-fgo-pyramid">FGO ピラミッド脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-hello-world">本屋巡り謎解き HELLOWORLD に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/20161210_sanrio">びゅ〜るランド最大の危機からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/0219_ginza">銀座令嬢誘拐事件 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/20160112_ansatsu2">暗殺教室からの脱出2 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/1222_ansatsunetabare">暗殺教室 練習問題 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/1202_%E5%AE%87%E5%AE%99%E6%80%AA%E7%8D%A3%E7%B7%B4%E7%BF%92%E5%95%8F%E9%A1%8C">宇宙怪獣からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2014/09/01/190000">パズルガールズからの挑戦状 に挑戦</a></li>' +
