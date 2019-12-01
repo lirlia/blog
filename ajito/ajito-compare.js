@@ -1,5 +1,5 @@
 var ajito_all_html = '<h4>他のルーム型イベントとの比較（難易度と探索難易度）</h4>'
-+ '<p><img class="hatena-fotolife" src="https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20191201/20191201030921.png" alt="ルーム型イベント比較表" /></p>'
++ '<p><img class="hatena-fotolife" src="https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20191201/20191201173702.png" alt="ルーム型イベント比較表" /></p>'
 + '<p><br></p>'
 + '<p class="show-button">図のイベントの正式名を表示する</p>'
 + '<div class="js_close">'
@@ -34,6 +34,7 @@ var ajito_all_html = '<h4>他のルーム型イベントとの比較（難易度
 + '<li>魔法 → 魔法の部屋からの脱出</a></li>'
 + '<li>魔王城1 → <a href="https://www.nazomap.com/entry/2014/07/22/220551">魔王城からの脱出1</a></li>'
 + '<li>魔王城2 → 魔王城からの脱出2</a></li>'
++ '<li>約ネバ → <a href="https://www.nazomap.com/entry/201905_yakuneba">偽りの楽園</a></li>'
 + '</ul>'
 + '</div>'
 
