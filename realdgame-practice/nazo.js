@@ -68,6 +68,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<p>難易度★５(難しい）</p>' +
 '<ul>' +
 '<li><a href="https://www.nazomap.com/entry/201808_night_circus">夜のサーカス遊園地からの脱出 に挑戦</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/2018/07/16/171050">DQ謎ガチャチャレンジ に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201801_neverland">MENSAの約ネバIQ脳力試験 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2014/04/06/140233">忘れられた実験室からの脱出 に挑戦</a></li>' +
 '</ul>' +
