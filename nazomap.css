@@ -1435,6 +1435,11 @@ html[itemtype="http://schema.org/Blog"] div.entry-content{
     border:none;
 }
 
+article.entry.no-entry .entry-content {
+    top: 0px;
+    padding: 10px;
+}
+
 html[itemtype="http://schema.org/Blog"] div.entry-content a:after{
     content: '' !important;
 }
