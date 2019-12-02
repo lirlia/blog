@@ -1,6 +1,7 @@
 var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<p>難易度★１（簡単）</p>' +
 '<ul>' +
+'<li><a href="https://www.nazomap.com/entry/practice-tokyobay">ららぽーとTOKYO-BAYからの挑戦状 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-snow-moutain">閉ざされた雪山からの脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-hiroshima">ひろしま謎解き街歩き に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201907_idle">ラブライブサンシャインの練習問題 に挑戦</a></li>' +
