@@ -51,6 +51,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '</ul>' +
 '<p>難易度★４</p>' +
 '<ul>' +
+'<li><a href="https://www.nazomap.com/entry/practice-jra-rupan">ルパン三世 黄金馬券を盗め に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-fgo-pyramid">FGO ピラミッド脱出 に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-hello-world">本屋巡り謎解き HELLOWORLD に挑戦</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201808_satsujin">5分間リアル脱出ゲーム 殺人館からの脱出 に挑戦</a></li>' +
