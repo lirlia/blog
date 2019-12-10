@@ -1880,6 +1880,10 @@ strong {
 .entry-content > div > ul {
     list-style-type: none;
 }
+.entry-content li {
+    line-height: 35px; 
+}
+
 .entry-content > ul > li:before,
 .entry-content > div > ul > li:before {
     content: "\f084";
@@ -1888,6 +1892,7 @@ strong {
     font-weight: bold;
     padding: 0 10px 0 0;
 }
+
 /*記事下*/
 
 
