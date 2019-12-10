@@ -7,11 +7,9 @@ $(function() {
     var next = num + 1
 
     $(".konazo-end").append('<div class="nazo-next-prev">'
-        + '<p class="nazo-button nazo-next"><a href="https://www.nazomap.com/entry/gin_nazo_' + next + '"/></a></p>'
         + '<p class="nazo-button nazo-first"><a href="https://www.nazomap.com/entry/gin_nazo_1">No1に戻る</a></p>'
         + '<p class="nazo-button nazo-prev"><a href="https://www.nazomap.com/entry/gin_nazo_' + prev + '"/></a></p>'
         + '</div>')
-    $(".nazo-next").children('a').text('←No' + next + 'を解く')
 
     // 次回の謎が存在しない場合はリンクを削除する
     $(function(){
@@ -21,9 +19,10 @@ $(function() {
         url: url,
         type: 'GET',
       }).then(function(data){
-        ;
+        $(".nazo-next-prev").prepend('<p class="nazo-button nazo-next"><a href="https://www.nazomap.com/entry/gin_nazo_' + next + '"/></a></p>')
+        $(".nazo-next").children('a').text('←No' + next + 'を解く')
       }, function(data){
-        $(".nazo-next").children().contents().unwrap();
+        $(".nazo-next-prev").prepend('<p class="nazo-button nazo-next">←No' + next + 'を解く</p>')
       });
     });
 
