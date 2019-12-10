@@ -13,6 +13,20 @@ $(function() {
         + '</div>')
     $(".nazo-next").children('a').text('←No' + next + 'を解く')
 
+    // 次回の謎が存在しない場合はリンクを削除する
+    $(function(){
+      var url = 'https://www.nazomap.com/entry/gin_nazo_' + next;
+
+      $.ajax({
+        url: url,
+        type: 'GET',
+      }).then(function(data){
+        ;
+      }, function(data){
+        $(".nazo-next").children().contents().unwrap();
+      });
+    });
+
     // No.1だけ処理を変える
     if (num == 1) {
         $(".nazo-prev").html('<p>　 </p>');
