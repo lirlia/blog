@@ -69,6 +69,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<li><a href="https://www.nazomap.com/entry/201808_satsujin">5分間リアル脱出ゲーム 殺人館</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201808_1week">SCRAPマガジン 謎まみれの1週間</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201802_sakura">カードキャプターさくら謎解き</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201801_yanaginagi">やなぎなぎ 迷いのスノードーム</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201708_conan_bangai">コナン 東と西の名探偵の推理対決</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20161210_sanrio">びゅ〜るランド最大の危機</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/0219_ginza">銀座令嬢誘拐事件</a></li>' +
