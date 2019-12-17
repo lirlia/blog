@@ -87,6 +87,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<li><a href="https://www.nazomap.com/entry/201808_night_circus">夜のサーカス遊園地からの脱出</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2018/07/16/171050">DQ謎ガチャチャレンジ</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201801_neverland">MENSAの約ネバIQ脳力試験</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/20161010_aqua">海底アクア城からの脱出-番外編-</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150909_noroi">呪われたオーディション会場からの脱出</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2014/04/06/140233">忘れられた実験室からの脱出</a></li>' +
 '</ul>' +
