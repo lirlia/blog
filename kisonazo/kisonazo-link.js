@@ -29,7 +29,7 @@ $(function() {
     }
 
     $(".kisonazo-end").append('<p>　</p>')
-    $(".kisonazo-end").append('<p>🔻他の謎解きにも挑戦しよう！</p>')
+    $(".kisonazo-end").append('<p>👇他の謎解きにも挑戦しよう！</p>')
     $(".kisonazo-end").append('<ul>'
         + '<li><a href="https://www.nazomap.com/entry/scrap-practice-nazo">リアル脱出ゲームの練習問題</a>に挑戦</li>'
         + '<li><a href="https://www.nazomap.com/entry/20161110_anothervision">今夜はナゾトレの問題</a>に挑戦</li>'

@@ -29,7 +29,7 @@ $(function() {
     }
 
     $(".nazotore-end").append('<p>　</p>')
-    $(".nazotore-end").append('<p>🔻他の謎解きにも挑戦しよう！</p>')
+    $(".nazotore-end").append('<p>👇他の謎解きにも挑戦しよう！</p>')
     $(".nazotore-end").append('<ul>'
         + '<li><a href="https://www.nazomap.com/entry/scrap-practice-nazo">リアル脱出ゲームの練習問題</a>に挑戦</li>'
         + '<li><a href="https://www.nazomap.com/entry/kisonazo_1">リアル脱出ゲームででる基礎なぞ</a>に挑戦</li>'
@@ -42,9 +42,9 @@ $(function() {
     //$(".nazotore-end").append('<a target="_blank"><p class="nazo-line nazo-sns-box">LINEで謎をシェア</p></a>')
 
     //var facebook_href = 'https://www.facebook.com/sharer.php?u=' + location.href;
-    //var twitter_href_text = 'この謎が解けるかな？🔻' + $('.entry-title').text() + ' ' + location.href;
+    //var twitter_href_text = 'この謎が解けるかな？👇' + $('.entry-title').text() + ' ' + location.href;
     //var twitter_href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(twitter_href_text);
-    //var line_href = 'https://line.me/R/msg/text/?この謎が解けるかな？🔻' + $('.entry-title').text() + ' ' + location.href
+    //var line_href = 'https://line.me/R/msg/text/?この謎が解けるかな？👇' + $('.entry-title').text() + ' ' + location.href
     //$('.nazo-facebook').parent().attr("href", facebook_href);
     //$('.nazo-twitter').parent().attr("href", twitter_href);
     //$('.nazo-line').parent().attr("href", line_href);
