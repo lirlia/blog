@@ -66,6 +66,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<li><a href="https://www.nazomap.com/entry/practice-jra-rupan">ルパン三世 黄金馬券を盗め</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-fgo-pyramid">FGO ピラミッド脱出</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-hello-world">本屋巡り謎解き HELLOWORLD</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/201810_gem">ジェムラプトルお試し謎</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201808_satsujin">5分間リアル脱出ゲーム 殺人館</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201808_1week">SCRAPマガジン 謎まみれの1週間</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201802_sakura">カードキャプターさくら謎解き</a></li>' +
