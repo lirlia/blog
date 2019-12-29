@@ -3,6 +3,7 @@ var ajito_all_html = '<h4>他のルーム型イベントとの比較（難易度
 + '<p><br></p>'
 + '<p class="show-button">図のイベントの正式名を表示する</p>'
 + '<div class="js_close">'
++ '<blockquote>'
 + '<ul>'
 + '<li>RED ROOM → <a href="https://www.nazomap.com/entry/20150905_redroom">Escape from the RED ROOM</a></li>'
 + '<li>うだつ → <a href="https://www.nazomap.com/entry/2014/07/11/232759">うだつのあがらない勇者からの脱出</a></li>'
@@ -36,6 +37,7 @@ var ajito_all_html = '<h4>他のルーム型イベントとの比較（難易度
 + '<li>魔王城2 → 魔王城からの脱出2</a></li>'
 + '<li>約ネバ → <a href="https://www.nazomap.com/entry/201905_yakuneba">偽りの楽園</a></li>'
 + '</ul>'
++ '</blockquote>'
 + '</div>'
 
 var ajito_comparelinkHTML = document.querySelector("div.ajito-compare");
