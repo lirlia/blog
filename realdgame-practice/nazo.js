@@ -16,6 +16,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<li><a href="https://www.nazomap.com/entry/201703_shiomokita_scrap">下北沢謎解き街歩き</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150605_onepice">ワンピース 謎解きキャンペーン</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150307_spynetabare">聡明なスパイは耳がいい</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/%E5%9C%B0%E7%90%83%E6%BB%85%E4%BA%A1%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%E7%B7%B4%E7%BF%92%E5%95%8F%E9%A1%8C">地球滅亡からの脱出</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2014/06/12/065313">デスノートの練習問題</a></li>' +
 '</ul>' +
 '<p>難易度★２</p>' +
