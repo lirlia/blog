@@ -51,6 +51,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<li><a href="https://www.nazomap.com/entry/201709_kyotodensya">京都鉄道ミステリー</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20160114_dq">竜王迷宮からの脱出</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150523_magunorianetabare">マグノリア銀行からの脱出</a></li>' +
+'<li><a href="https://www.nazomap.com/entry/20160906_sekaiju">世界樹の迷宮Ⅴ</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/0207_conan3netabare">怪盗キッドからの挑戦状</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/20150704_nazonatsu">サマーキャンペーンの謎</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-sleepforest">悪い魔女からの挑戦状</a></li>' +
