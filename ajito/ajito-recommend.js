@@ -1,4 +1,5 @@
-var ajito_recommend_html =  '<p>👇テクニックを読んで対策を練ろう！</p>'
+var ajito_recommend_html = '<p> </p>'
++ '<p>👇テクニックを読んで対策を練ろう！</p>'
 + '<ul><li><a href="https://www.nazomap.com/entry/2014/07/26/210733">アジトオブスクラップを成功するための4つの攻略法と探索のコツ</a></li></ul>'
 + '<br>'
 + '<p>👇練習問題を解いて実力をアップしよう！</p>'
