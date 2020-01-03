@@ -364,6 +364,41 @@ html,body{
     display:none;
 }
 
+/*
+* 2020.01.04 トップページ用の横線
+*/
+
+.section-title-border {
+  display: flex;
+  align-items: center;
+  margin: 10px 15px;
+}
+.section-title-border:before,
+.section-title-border:after {
+  border-top: 2px solid #454545;
+  content: "";
+  flex-grow: 1;
+}
+.section-title-border:before {
+  margin-right: 1rem;
+}
+.section-title-border:after {
+  margin-left: 1rem;
+}
+
+.section-title {
+  font-size: 115%;
+  font-weight: bold;
+}
+
+.section-title-icon {
+  margin-right: 5px;
+}
+
+.red { color: #EF3B50 }
+.blue { color: #33B0DD }
+.green { color: #ABBF16}
+
 /*↓----更新日時表示----↓*/
 .lastmod {
   background-color: transparent;
