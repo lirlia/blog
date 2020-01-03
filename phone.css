@@ -284,7 +284,7 @@ html,body{
 
 .list-entry-article{
   width: 96%;
-  height: 120px;
+  height: 145px;
   border: none !important;
   float: left;
   background-color: #fff;
@@ -300,12 +300,12 @@ html,body{
     height: 72px !important;
 }
 .list-entry-article > .section> .list-entry-header >.entry-title{
-    font-size:90% !important;
-    *font-weight:normal !important;
+    font-size: 115% !important;
+    color: #33B0DD;
+    font-weight: normal !important;
+    margin-left: 137px !important;
 }
-.list-entry-article > .section > .list-entry-header > .entry-title{
-    margin-left: 85px !important;
-}
+
 /*
  * 2018.03.26 HatenaBlogのアップデートに伴う修正
  * 記事一覧での記事概要表示の無効化
@@ -343,6 +343,12 @@ html,body{
 
 .list-entry-article > .section > .entry-body{
     top: -52px;
+}
+
+.list-entry-article .thumb-image {
+    width: 120px;
+    height: 100px;
+    box-shadow: 3px 5px 10px rgba(0,0,0,0.3);
 }
 
 .thumb{
