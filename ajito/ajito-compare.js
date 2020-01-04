@@ -1,8 +1,7 @@
 var ajito_all_html = '<h4>他のルーム型イベントとの比較（難易度と探索難易度）</h4>'
 + '<p><img class="hatena-fotolife" src="https://cdn-ak.f.st-hatena.com/images/fotolife/l/lirlia/20191201/20191201173702.png" alt="ルーム型イベント比較表" /></p>'
 + '<p> </p>'
-+ '<p class="show-button">各イベントの正式名はこちら/p>'
-+ '<div class="js_close">'
++ '<p>各イベントの正式名はこちら</p>'
 + '<blockquote>'
 + '<ul>'
 + '<li>RED ROOM → <a href="https://www.nazomap.com/entry/20150905_redroom">Escape from the RED ROOM</a></li>'
@@ -38,7 +37,6 @@ var ajito_all_html = '<h4>他のルーム型イベントとの比較（難易度
 + '<li>約ネバ → <a href="https://www.nazomap.com/entry/201905_yakuneba">偽りの楽園</a></li>'
 + '</ul>'
 + '</blockquote>'
-+ '</div>'
 
 var ajito_comparelinkHTML = document.querySelector("div.ajito-compare");
 
