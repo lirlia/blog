@@ -290,6 +290,7 @@ html,body{
   background-color: #fff;
   padding: 3% 2%;
   margin: 1%;
+  box-shadow: 2px 2px 4px rgb(0,0,0,0.1);
 }
 
 .entry-footer-time {
@@ -395,6 +396,17 @@ html,body{
   margin-right: 5px;
 }
 
+.section-pager {
+  background: #33B0DD;
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.1);
+  font-size: 110%;
+  margin: 0 20px 30px 20px;
+  padding: 10px;
+}
+
+.bold { font-weight: bold; }
+.center { text-align: center; }
+.white { color: #FFF }
 .red { color: #EF3B50 }
 .blue { color: #33B0DD }
 .green { color: #ABBF16}
