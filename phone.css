@@ -402,6 +402,7 @@ html,body{
   font-size: 110%;
   margin: 0 20px 30px 20px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .bold { font-weight: bold; }
@@ -410,6 +411,25 @@ html,body{
 .red { color: #EF3B50 }
 .blue { color: #33B0DD }
 .green { color: #ABBF16}
+
+.btn {
+  color: #FFF;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background: #33B0DD;
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.1);
+  font-size: 110%;
+  margin: 30px 20px 20px 20px;
+}
+
+.btn-lg {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 90%;
+  padding: 10px;
+}
 
 /*↓----更新日時表示----↓*/
 .lastmod {
