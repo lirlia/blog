@@ -21,6 +21,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '</ul>' +
 '<p>難易度★２</p>' +
 '<ul>' +
+'<li><a href="https://www.nazomap.com/entry/practice-nagoya-2020">名古屋 地下迷宮に眠る謎2020</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-jojo5">ジョジョ5部謎解き</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-osaka-metro1">大阪メトロ 謎解きメトロ旅</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201903_9rooms">Escape from The NINE ROOMS</a></li>' +
