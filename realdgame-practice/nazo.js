@@ -41,7 +41,6 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<p>難易度★３</p>' +
 '<ul>' +
 '<li><a href="https://www.nazomap.com/entry/pracice-tokeitantei">時計屋探偵とリアル謎解きゲームのアリバイ</a></li>' +
-'<li><a href="https://www.nazomap.com/entry/practice-teijin">テイジン謎解きチャレンジ</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2019/10/15/112221">サイコパス on the ship</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201907_rakuten">Quiz Knock謎解き</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201907_acure">acureの謎解き</a></li>' +
