@@ -23,7 +23,6 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '<p>難易度★２</p>' +
 '<ul>' +
 '<li><a href="https://www.nazomap.com/entry/practice-9train>止まらない豪華列車からの脱出</a></li>' +
-'<li><a href="https://www.nazomap.com/entry/pracice-onepiece-journey>謎とき絵本 いなくなったチョッパーを探せ！</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-nagoya-2020">名古屋 地下迷宮に眠る謎2020</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-jojo5">ジョジョ5部謎解き</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-osaka-metro1">大阪メトロ 謎解きメトロ旅</a></li>' +
@@ -70,6 +69,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '</ul>' +
 '<p>難易度★４</p>' +
 '<ul>' +
+'<li><a href="https://www.nazomap.com/entry/pracice-onepiece-journey>謎とき絵本 いなくなったチョッパーを探せ！</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-bleague">消えたLEGENDを探せ</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-jra-rupan">ルパン三世 黄金馬券を盗め</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/practice-fgo-pyramid">FGO ピラミッド脱出</a></li>' +
