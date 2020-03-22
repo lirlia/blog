@@ -32,7 +32,7 @@ $(function() {
     });
 
     if (prevdate == "201910") {        
-        $(".nazo-prev").children('a').attr('href', '')
+        $(".nazo-prev").html('<p class="nazo-button nazo-prev"><ruby><rb>前</rb><rp>（</rp><rt>まえ</rt> <rp>）</rp></ruby>の<ruby><rb>謎</rb><rp>（</rp><rt>なぞ</rt> <rp>）</rp></ruby>を<ruby><rb>解</rb><rp>（</rp><rt>と</rt> <rp>）</rp></ruby>く→</p>')
     } 
     
 });
