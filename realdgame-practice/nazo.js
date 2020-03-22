@@ -43,6 +43,7 @@ var html = '<p>🔻他の練習問題にも挑戦しよう！</p>' +
 '</ul>' +
 '<p>難易度★３</p>' +
 '<ul>' +
+'<li><a href="https://www.nazomap.com/entry/pracice-zombipark">夜のゾンビ遊園地の謎</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/pracice-tokeitantei">時計屋探偵とリアル謎解きゲームのアリバイ</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/2019/10/15/112221">サイコパス on the ship</a></li>' +
 '<li><a href="https://www.nazomap.com/entry/201907_rakuten">Quiz Knock謎解き</a></li>' +
