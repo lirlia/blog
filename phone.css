@@ -317,6 +317,15 @@ html,body{
 }
 
 /*
+ * 2021.06.06 HatenaBlogのアップデートに伴う修正
+ * 記事での画面上部表示の無効化
+ */
+
+.article-bar {
+    display: none !important;
+}
+
+/*
 * http://phiary.me/css3-box-sizing/
 */
 *, *:before, *:after {
