@@ -1585,7 +1585,7 @@ div.entry-content h2:before {
 
 
 h3{
-  color: #fff;
+  color: #fff !important;
   background: #33B0DD;
   padding: 10px 0 10px 10px;
   margin-left: -15px !important;
@@ -1593,7 +1593,7 @@ h3{
 }
 
 h3:before {
-    color: #fff;
+    color: #fff !important;
     font-family: FontAwesome;
     font-weight: bold;
     padding: 0 10px 0 0;
